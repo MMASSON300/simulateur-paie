@@ -1,0 +1,44 @@
+{
+  "valeur_point": 4.92278,
+  "plafond_ss": 4005.0,
+  "smic": 1867.02,
+  "prime_pfa_mensuel": 121.66666666666667,
+  "prime_segur_mensuel": 241.21,
+  "prime_pga_mensuel": 118.0,
+  "temps_partiel": [
+    {
+      "quotite": 0.9,
+      "facteur": 0.8857142857142857
+    },
+    {
+      "quotite": 0.8,
+      "facteur": 0.8571428571428571
+    },
+    {
+      "quotite": 0.7,
+      "facteur": 0.7
+    },
+    {
+      "quotite": 0.6,
+      "facteur": 0.6
+    },
+    {
+      "quotite": 0.5,
+      "facteur": 0.5
+    }
+  ],
+  "transfert_prime_point": [
+    {
+      "categorie": "A",
+      "montant_annuel": 389.0
+    },
+    {
+      "categorie": "B",
+      "montant_annuel": 278.0
+    },
+    {
+      "categorie": "C",
+      "montant_annuel": 167.0
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+# ---- Secrets - ne jamais versionner ----
+.env
+**/.env
+*.env
+!.env.example
+!**/.env.example
+
+# ---- Base de données ----
+*.db
+*.sqlite3
+*.sqlite
+
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# ---- Node / frontend ----
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+
+# ---- OS / éditeurs ----
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# ---- Fichiers de conception (hors application) ----
+stitch_*.zip

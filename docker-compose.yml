@@ -1,0 +1,15 @@
+services:
+  simulateur:
+    build: .
+    container_name: simulateur-paie
+    ports:
+      - "${PORT:-8080}:8000"
+    environment:
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:-admin}
+      SESSION_TTL: ${SESSION_TTL:-86400}
+    volumes:
+      - paie_data:/data
+    restart: unless-stopped
+
+volumes:
+  paie_data:

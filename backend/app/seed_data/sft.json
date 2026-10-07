@@ -1,0 +1,52 @@
+[
+  {
+    "enfants": 1,
+    "element_fixe": 2.29,
+    "element_proportionnel": null
+  },
+  {
+    "enfants": 2,
+    "element_fixe": 10.67,
+    "element_proportionnel": 0.03
+  },
+  {
+    "enfants": 3,
+    "element_fixe": 15.24,
+    "element_proportionnel": 0.08
+  },
+  {
+    "enfants": 4,
+    "element_fixe": 19.810000000000002,
+    "element_proportionnel": 0.14
+  },
+  {
+    "enfants": 5,
+    "element_fixe": 24.380000000000003,
+    "element_proportionnel": 0.2
+  },
+  {
+    "enfants": 6,
+    "element_fixe": 28.950000000000003,
+    "element_proportionnel": 0.26
+  },
+  {
+    "enfants": 7,
+    "element_fixe": 33.52,
+    "element_proportionnel": 0.32
+  },
+  {
+    "enfants": 8,
+    "element_fixe": 38.09,
+    "element_proportionnel": 0.38
+  },
+  {
+    "enfants": 9,
+    "element_fixe": 42.660000000000004,
+    "element_proportionnel": 0.44
+  },
+  {
+    "enfants": 10,
+    "element_fixe": 47.230000000000004,
+    "element_proportionnel": 0.5
+  }
+]

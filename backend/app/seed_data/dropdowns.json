@@ -1,0 +1,256 @@
+{
+  "filieres": [
+    "Administrative",
+    "Culturelle",
+    "Médico-sociale",
+    "Sportive",
+    "Technique"
+  ],
+  "cadres_par_filiere": {
+    "Administrative": [
+      "Rédacteurs territoriaux",
+      "Attachés territoriaux",
+      "Adjoints administratifs territoriaux"
+    ],
+    "Technique": [
+      "Ingénieurs territoriaux",
+      "Techniciens territoriaux",
+      "Agents maîtrise territoriaux",
+      "Adjoints techniques",
+      "Animateurs territoriaux",
+      "Adjoints animation"
+    ],
+    "Sportive": [
+      "Conseillers APS territoriaux",
+      "Educateurs APS territoriaux",
+      "Opérateurs APS territoriaux"
+    ],
+    "Culturelle": [
+      "Attachés conservation territoriaux",
+      "Bibliothécaires territoriaux",
+      "Conservateurs bibliothèque patrimoine territoriaux",
+      "Assistants conservation territoriaux",
+      "Adjoints patrimoine territoriaux"
+    ],
+    "Médico-sociale": [
+      "Conseillers socio éducatifs territoriaux",
+      "Pédi Podo Ergo Orthopt territoriaux",
+      "Masseurs Kiné Psychomot Orthophonistes territoriaux",
+      "Cadres de santé territoriaux",
+      "Puéricultrices territoriales",
+      "Infirmiers soins généraux territoriaux",
+      "Sages femmes territoriales",
+      "Psychologues territoriaux",
+      "Educateurs jeunes enfants territoriaux",
+      "Assistants socio éducatifs territoriaux",
+      "Aides soignants territoriaux",
+      "Auxiliaires puéricultures territoriaux",
+      "ATSEM territoriaux",
+      "Agents sociaux territoriaux"
+    ]
+  },
+  "grades_par_cadre": {
+    "Rédacteurs territoriaux": [
+      "Rédacteur",
+      "Rédacteur principal 2° classe",
+      "Rédacteur principal 1° classe"
+    ],
+    "Attachés territoriaux": [
+      "Attaché",
+      "Attaché principal",
+      "Attaché hors classe"
+    ],
+    "Adjoints administratifs territoriaux": [
+      "Adjoint Administratif",
+      "Adjoint Administratif Principal 2° classe ",
+      "Adjoint Administratif Principal 1° classe "
+    ],
+    "Ingénieurs territoriaux": [
+      "Ingénieur",
+      "Ingénieur principal",
+      "Ingénieur hors classe"
+    ],
+    "Techniciens territoriaux": [
+      "Technicien",
+      "Technicien principal 2° classe",
+      "Technicien principal 1° classe"
+    ],
+    "Agents maîtrise territoriaux": [
+      "Agents de maîtrise",
+      "Agents de maîtrise principal"
+    ],
+    "Adjoints techniques": [
+      "Adjoint technique",
+      "Adjoint technique principal 2° classe ",
+      "Adjoint technique principal 1° classe "
+    ],
+    "Animateurs territoriaux": [
+      "Animateur",
+      "Animateur principal 2° classe",
+      "Animateur principal 1° classe"
+    ],
+    "Adjoints animation": [
+      "Adjoint animation",
+      "Adjoint animation principal 2° classe ",
+      "Adjoint animation principal 1° classe "
+    ],
+    "Conseillers APS territoriaux": [
+      "Conseiller des APS",
+      "Conseiller principal des APS"
+    ],
+    "Educateurs APS territoriaux": [
+      "Educateur APS",
+      "Educateur APS principal 2° classe",
+      "Educateur APS principal 1° classe"
+    ],
+    "Opérateurs APS territoriaux": [
+      "Opérateur APS",
+      "Opérateur APS qualifié",
+      "Opérateur APS principal"
+    ],
+    "Attachés conservation territoriaux": [
+      "Attachés conservation",
+      "Attachés conservation principal"
+    ],
+    "Bibliothécaires territoriaux": [
+      "Bibliothécaire",
+      "Bibliothécaire principal"
+    ],
+    "Conservateurs bibliothèque patrimoine territoriaux": [
+      "Conservateurs bibliothèque patrimoine",
+      "Conservateurs bibliothèque patrimoine chef"
+    ],
+    "Assistants conservation territoriaux": [
+      "Assistants conservation",
+      "Assistants conservation principal 2° classe",
+      "Assistants conservation principal 1° classe"
+    ],
+    "Adjoints patrimoine territoriaux": [
+      "Adjoint patrimoine",
+      "Adjoint patrimoine principal 2° classe ",
+      "Adjoint patrimoine principal 1° classe "
+    ],
+    "Conseillers socio éducatifs territoriaux": [
+      "Conseiller socio-éducatif",
+      "Conseiller supérieur socio-éducatif",
+      "Conseiller hors classe socio-éducatif"
+    ],
+    "Pédi Podo Ergo Orthopt territoriaux": [
+      "Pédi Podo Ergo Orthopt classe normale",
+      "Pédi Podo Ergo Orthopt hors classe"
+    ],
+    "Masseurs Kiné Psychomot Orthophonistes territoriaux": [
+      "Masseurs Kiné Psychomot Orthophonistes territoriaux classe normale",
+      "Masseurs Kiné Psychomot Orthophonistes territoriaux hors classe"
+    ],
+    "Cadres de santé territoriaux": [
+      "Cadre de santé",
+      "Cadre supérieur de santé "
+    ],
+    "Puéricultrices territoriales": [
+      "Puéricultrices",
+      "Puéricultrices hors classe"
+    ],
+    "Infirmiers soins généraux territoriaux": [
+      "Infirmier en soins généraux",
+      "Infirmier en soins généraux hors classe"
+    ],
+    "Sages femmes territoriales": [
+      "Sage-femme de classe normale",
+      "Sage-femme hors-classe"
+    ],
+    "Psychologues territoriaux": [
+      "Psychologues de classe normale",
+      "Psychologues hors classe"
+    ],
+    "Educateurs jeunes enfants territoriaux": [
+      "Educateur de jeunes enfants",
+      "Educateur de jeunes enfants de classe exceptionnelle"
+    ],
+    "Assistants socio éducatifs territoriaux": [
+      "Assistant socio-éducatif",
+      "Assistant socio-éducatif de classe exceptionnelle"
+    ],
+    "Aides soignants territoriaux": [
+      "Aide soignant de classe normale",
+      "Aide soignant de classe supérieure"
+    ],
+    "Auxiliaires puéricultures territoriaux": [
+      "Auxiliaire de puériculture de classe normale",
+      "Auxiliaire de puériculture de classe supérieure"
+    ],
+    "ATSEM territoriaux": [
+      "ATSEM principal 2° classe",
+      "ATSEM principal 1° classe"
+    ],
+    "Agents sociaux territoriaux": [
+      "Agent social",
+      "Agent social principal 2° classe",
+      "Agent social principal 1° classe"
+    ]
+  },
+  "regimes_ifse": [
+    "Assistant de prévention",
+    "Directeur",
+    "Directeur expertise informatique",
+    "Expertise informatique",
+    "Fonctions de catégorie supérieure",
+    "Fonctions de catégorie supérieure expertise informatique",
+    "Non encadrant direct ou coord exp info",
+    "Non encadrant direction ou coordination",
+    "Non encadrant.e",
+    "Non encadrant.e direction ou coordination",
+    "Non encadrant.e direction ou coordination expertise informatique",
+    "Responsable d'unité",
+    "Responsable d'unité expertise informatique",
+    "Responsable d'unité expertise informatique poste A",
+    "Responsable d'équipe",
+    "Responsable d'équipe - sujétion exhumation",
+    "Responsable d'équipe - sujétions niveau 1",
+    "Responsable d'équipe - sujétions niveau 2",
+    "Responsable d'équipe - sujétions niveau 3",
+    "Responsable d'équipe - sujétions niveau 4",
+    "Responsable d'équipe - sujétions niveau 5",
+    "Responsable d'équipe expertise informatique",
+    "Responsable d'équipe expertise informatique poste A",
+    "Responsable de secteur",
+    "Responsable de secteur expertise informatique",
+    "Responsable de secteur expertise informatique poste A",
+    "Responsable de secteur-Sujétions niv 2",
+    "Responsable de service",
+    "Responsable de service expertise informatique",
+    "Référent d'équipe",
+    "Référent d'équipe - sujétions niveau 1",
+    "Référent d'équipe - sujétions niveau 2",
+    "Référent d'équipe - sujétions niveau 3",
+    "Référent d'équipe - sujétions niveau 4",
+    "Référent d'équipe - sujétions niveau 5",
+    "Sujétion exhumation",
+    "Sujétions niveau 1",
+    "Sujétions niveau 2",
+    "Sujétions niveau 3",
+    "Sujétions niveau 4",
+    "Sujétions niveau 5",
+    "Technicien réseau DSI",
+    "Tuteur de mobilité"
+  ],
+  "echelons": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "statuts": [
+    "Titulaire",
+    "Non titulaire"
+  ]
+}

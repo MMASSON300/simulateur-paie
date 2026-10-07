@@ -1,0 +1,4720 @@
+[
+  {
+    "code_regime": "02",
+    "regime": "Directeur",
+    "grade_code": "1005",
+    "grade": "Administrateur",
+    "montant": 2100.0
+  },
+  {
+    "code_regime": "02",
+    "regime": "Directeur",
+    "grade_code": "1016",
+    "grade": "Directeur ter",
+    "montant": 1850.0
+  },
+  {
+    "code_regime": "02",
+    "regime": "Directeur",
+    "grade_code": "1009",
+    "grade": "Attaché hors classe",
+    "montant": 1850.0
+  },
+  {
+    "code_regime": "02",
+    "regime": "Directeur",
+    "grade_code": "1019",
+    "grade": "Attaché principal",
+    "montant": 1850.0
+  },
+  {
+    "code_regime": "02",
+    "regime": "Directeur",
+    "grade_code": "1010",
+    "grade": "Attaché",
+    "montant": 1600.0
+  },
+  {
+    "code_regime": "02",
+    "regime": "Directeur",
+    "grade_code": "2744",
+    "grade": "Ingénieur en chef HCl",
+    "montant": 3170.0
+  },
+  {
+    "code_regime": "02",
+    "regime": "Directeur",
+    "grade_code": "2742",
+    "grade": "Ingénieur en chef",
+    "montant": 3170.0
+  },
+  {
+    "code_regime": "02",
+    "regime": "Directeur",
+    "grade_code": "2746",
+    "grade": "Ingénieur général",
+    "montant": 3170.0
+  },
+  {
+    "code_regime": "02",
+    "regime": "Directeur",
+    "grade_code": 2724,
+    "grade": "Ingénieur HCl",
+    "montant": 2350.0
+  },
+  {
+    "code_regime": "02",
+    "regime": "Directeur",
+    "grade_code": 2722,
+    "grade": "Ingénieur Pal",
+    "montant": 2350.0
+  },
+  {
+    "code_regime": "02",
+    "regime": "Directeur",
+    "grade_code": 2720,
+    "grade": "Ingénieur",
+    "montant": 1975.0
+  },
+  {
+    "code_regime": "02",
+    "regime": "Directeur",
+    "grade_code": "3106",
+    "grade": "Conservateurs bibliothèque patrimoine chef",
+    "montant": 1600.0
+  },
+  {
+    "code_regime": "02",
+    "regime": "Directeur",
+    "grade_code": "3101",
+    "grade": "Conservateurs bibliothèque patrimoine",
+    "montant": 1600.0
+  },
+  {
+    "code_regime": "02",
+    "regime": "Directeur",
+    "grade_code": "3103",
+    "grade": "Conservateurs bibliothèque patrimoine",
+    "montant": 1600.0
+  },
+  {
+    "code_regime": "02",
+    "regime": "Directeur",
+    "grade_code": "3105",
+    "grade": "Conservateurs bibliothèque patrimoine chef",
+    "montant": 1600.0
+  },
+  {
+    "code_regime": "02",
+    "regime": "Directeur",
+    "grade_code": "3207",
+    "grade": "Conservateurs bibliothèque patrimoine chef",
+    "montant": 1600.0
+  },
+  {
+    "code_regime": "02",
+    "regime": "Directeur",
+    "grade_code": "3202",
+    "grade": "Conservateurs bibliothèque patrimoine",
+    "montant": 1600.0
+  },
+  {
+    "code_regime": "02",
+    "regime": "Directeur",
+    "grade_code": "3204",
+    "grade": "Conservateurs bibliothèque patrimoine",
+    "montant": 1600.0
+  },
+  {
+    "code_regime": "02",
+    "regime": "Directeur",
+    "grade_code": "4006",
+    "grade": "Conseiller principal des APS",
+    "montant": 1600.0
+  },
+  {
+    "code_regime": "02",
+    "regime": "Directeur",
+    "grade_code": "4000",
+    "grade": "Conseiller des APS",
+    "montant": 1600.0
+  },
+  {
+    "code_regime": "02",
+    "regime": "Directeur",
+    "grade_code": "5732",
+    "grade": "Cadre supérieur de santé ",
+    "montant": 1600.0
+  },
+  {
+    "code_regime": "02",
+    "regime": "Directeur",
+    "grade_code": "5730",
+    "grade": "Cadre de santé",
+    "montant": 1600.0
+  },
+  {
+    "code_regime": "80",
+    "regime": "Directeur expertise informatique",
+    "grade_code": "1005",
+    "grade": "Administrateur",
+    "montant": 2625.0
+  },
+  {
+    "code_regime": "80",
+    "regime": "Directeur expertise informatique",
+    "grade_code": "1016",
+    "grade": "Directeur ter",
+    "montant": 2375.0
+  },
+  {
+    "code_regime": "80",
+    "regime": "Directeur expertise informatique",
+    "grade_code": "1009",
+    "grade": "Attaché hors classe",
+    "montant": 2375.0
+  },
+  {
+    "code_regime": "80",
+    "regime": "Directeur expertise informatique",
+    "grade_code": "1019",
+    "grade": "Attaché principal",
+    "montant": 2375.0
+  },
+  {
+    "code_regime": "80",
+    "regime": "Directeur expertise informatique",
+    "grade_code": "1010",
+    "grade": "Attaché",
+    "montant": 2125.0
+  },
+  {
+    "code_regime": "80",
+    "regime": "Directeur expertise informatique",
+    "grade_code": "2744",
+    "grade": "Ingénieur en chef HCl",
+    "montant": 3695.0
+  },
+  {
+    "code_regime": "80",
+    "regime": "Directeur expertise informatique",
+    "grade_code": "2742",
+    "grade": "Ingénieur en chef",
+    "montant": 3695.0
+  },
+  {
+    "code_regime": "80",
+    "regime": "Directeur expertise informatique",
+    "grade_code": "2746",
+    "grade": "Ingénieur général",
+    "montant": 3695.0
+  },
+  {
+    "code_regime": "80",
+    "regime": "Directeur expertise informatique",
+    "grade_code": 2724,
+    "grade": "Ingénieur HCl",
+    "montant": 2875.0
+  },
+  {
+    "code_regime": "80",
+    "regime": "Directeur expertise informatique",
+    "grade_code": 2722,
+    "grade": "Ingénieur Pal",
+    "montant": 2875.0
+  },
+  {
+    "code_regime": "80",
+    "regime": "Directeur expertise informatique",
+    "grade_code": 2720,
+    "grade": "Ingénieur",
+    "montant": 2500.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": "1016",
+    "grade": "Directeur ter",
+    "montant": 1400.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": "1009",
+    "grade": "Attaché hors classe",
+    "montant": 1400.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": "1019",
+    "grade": "Attaché principal",
+    "montant": 1400.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": "1010",
+    "grade": "Attaché",
+    "montant": 1200.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": "3308",
+    "grade": "Attachés conservation principal",
+    "montant": 1400.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": "3306",
+    "grade": "Attachés conservation",
+    "montant": 1200.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": 2724,
+    "grade": "Ingénieur HCl",
+    "montant": 1775.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": 2722,
+    "grade": "Ingénieur Pal",
+    "montant": 1775.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": 2720,
+    "grade": "Ingénieur",
+    "montant": 1775.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": "3106",
+    "grade": "Conservateurs bibliothèque patrimoine chef",
+    "montant": 1200.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": "3101",
+    "grade": "Conservateurs bibliothèque patrimoine",
+    "montant": 1200.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": "3103",
+    "grade": "Conservateurs bibliothèque patrimoine",
+    "montant": 1200.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": "3105",
+    "grade": "Conservateurs bibliothèque patrimoine chef",
+    "montant": 1200.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": "3207",
+    "grade": "Conservateurs bibliothèque patrimoine chef",
+    "montant": 1200.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": "3202",
+    "grade": "Conservateurs bibliothèque patrimoine",
+    "montant": 1200.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": "3204",
+    "grade": "Conservateurs bibliothèque patrimoine",
+    "montant": 1200.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": "4006",
+    "grade": "Conseiller principal des APS",
+    "montant": 1200.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": "4000",
+    "grade": "Conseiller des APS",
+    "montant": 1200.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": "5464",
+    "grade": "Infirmier en soins généraux",
+    "montant": 1200.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": "5462",
+    "grade": "Infirmier en soins généraux hors classe",
+    "montant": 1200.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": "5732",
+    "grade": "Cadre supérieur de santé ",
+    "montant": 1200.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": "5730",
+    "grade": "Cadre de santé",
+    "montant": 1200.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": "5300",
+    "grade": "Psychologues de classe normale",
+    "montant": 1200.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": "5302",
+    "grade": "Psychologues hors classe",
+    "montant": 1200.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": 5413,
+    "grade": "Puéricultrices",
+    "montant": 1200.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": 5415,
+    "grade": "Puéricultrices hors classe",
+    "montant": 1200.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": 5931,
+    "grade": "Assistant socio-éducatif",
+    "montant": 1200.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": 5932,
+    "grade": "Assistant socio-éducatif de classe exceptionnelle",
+    "montant": 1200.0
+  },
+  {
+    "code_regime": "81",
+    "regime": "Responsable de service expertise informatique",
+    "grade_code": "1016",
+    "grade": "Directeur ter",
+    "montant": 1925.0
+  },
+  {
+    "code_regime": "81",
+    "regime": "Responsable de service expertise informatique",
+    "grade_code": "1009",
+    "grade": "Attaché hors classe",
+    "montant": 1925.0
+  },
+  {
+    "code_regime": "81",
+    "regime": "Responsable de service expertise informatique",
+    "grade_code": "1019",
+    "grade": "Attaché principal",
+    "montant": 1925.0
+  },
+  {
+    "code_regime": "81",
+    "regime": "Responsable de service expertise informatique",
+    "grade_code": "1010",
+    "grade": "Attaché",
+    "montant": 1725.0
+  },
+  {
+    "code_regime": "81",
+    "regime": "Responsable de service expertise informatique",
+    "grade_code": 2724,
+    "grade": "Ingénieur HCl",
+    "montant": 2300.0
+  },
+  {
+    "code_regime": "81",
+    "regime": "Responsable de service expertise informatique",
+    "grade_code": 2722,
+    "grade": "Ingénieur Pal",
+    "montant": 2300.0
+  },
+  {
+    "code_regime": "81",
+    "regime": "Responsable de service expertise informatique",
+    "grade_code": 2720,
+    "grade": "Ingénieur",
+    "montant": 2300.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "1019",
+    "grade": "Attaché principal",
+    "montant": 1100.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "1010",
+    "grade": "Attaché",
+    "montant": 950.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": 2724,
+    "grade": "Ingénieur HCl",
+    "montant": 1375.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": 2722,
+    "grade": "Ingénieur Pal",
+    "montant": 1375.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": 2720,
+    "grade": "Ingénieur",
+    "montant": 1375.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "3308",
+    "grade": "Attachés conservation principal",
+    "montant": 1100.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "3306",
+    "grade": "Attachés conservation",
+    "montant": 950.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "3408",
+    "grade": "Bibliothécaire principal",
+    "montant": 1100.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "3406",
+    "grade": "Bibliothécaire",
+    "montant": 950.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "4006",
+    "grade": "Conseiller principal des APS",
+    "montant": 950.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "4000",
+    "grade": "Conseiller des APS",
+    "montant": 950.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "5730",
+    "grade": "Cadre de santé",
+    "montant": 950.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "5732",
+    "grade": "Cadre supérieur de santé ",
+    "montant": 950.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "5300",
+    "grade": "Psychologues de classe normale",
+    "montant": 950.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "5302",
+    "grade": "Psychologues hors classe",
+    "montant": 950.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "5462",
+    "grade": "Infirmier en soins généraux",
+    "montant": 950.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "5463",
+    "grade": "Infirmier en soins généraux hors classe",
+    "montant": 950.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": 5413,
+    "grade": "Puéricultrices",
+    "montant": 950.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": 5415,
+    "grade": "Puéricultrices hors classe",
+    "montant": 950.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": 5931,
+    "grade": "Assistant socio-éducatif",
+    "montant": 950.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": 5932,
+    "grade": "Assistant socio-éducatif de classe exceptionnelle",
+    "montant": 950.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "5975",
+    "grade": "Educateur de jeunes enfants",
+    "montant": 950.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "5978",
+    "grade": "Educateur de jeunes enfants de classe exceptionnelle",
+    "montant": 950.0
+  },
+  {
+    "code_regime": "82",
+    "regime": "Responsable de secteur expertise informatique",
+    "grade_code": "1019",
+    "grade": "Attaché principal",
+    "montant": 1625.0
+  },
+  {
+    "code_regime": "82",
+    "regime": "Responsable de secteur expertise informatique",
+    "grade_code": "1010",
+    "grade": "Attaché",
+    "montant": 1475.0
+  },
+  {
+    "code_regime": "82",
+    "regime": "Responsable de secteur expertise informatique",
+    "grade_code": 2724,
+    "grade": "Ingénieur HCl",
+    "montant": 1900.0
+  },
+  {
+    "code_regime": "82",
+    "regime": "Responsable de secteur expertise informatique",
+    "grade_code": 2722,
+    "grade": "Ingénieur Pal",
+    "montant": 1900.0
+  },
+  {
+    "code_regime": "82",
+    "regime": "Responsable de secteur expertise informatique",
+    "grade_code": 2720,
+    "grade": "Ingénieur",
+    "montant": 1900.0
+  },
+  {
+    "code_regime": "42",
+    "regime": "Responsable de secteur-Sujétions niv 2",
+    "grade_code": "5460",
+    "grade": "Infirmier en soins généraux",
+    "montant": 965.0
+  },
+  {
+    "code_regime": "42",
+    "regime": "Responsable de secteur-Sujétions niv 2",
+    "grade_code": "5462",
+    "grade": "Infirmier en soins généraux hors classe",
+    "montant": 965.0
+  },
+  {
+    "code_regime": "42",
+    "regime": "Responsable de secteur-Sujétions niv 2",
+    "grade_code": "5730",
+    "grade": "Cadre de santé",
+    "montant": 965.0
+  },
+  {
+    "code_regime": "42",
+    "regime": "Responsable de secteur-Sujétions niv 2",
+    "grade_code": "5732",
+    "grade": "Cadre supérieur de santé ",
+    "montant": 965.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "1010",
+    "grade": "Attaché",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "1019",
+    "grade": "Attaché principal",
+    "montant": 930.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "3306",
+    "grade": "Attachés conservation",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "3308",
+    "grade": "Attachés conservation principal",
+    "montant": 930.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "3406",
+    "grade": "Bibliothécaire",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "3408",
+    "grade": "Bibliothécaire principal",
+    "montant": 930.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "4000",
+    "grade": "Conseiller des APS",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "4006",
+    "grade": "Conseiller principal des APS",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "5730",
+    "grade": "Cadre de santé",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "5732",
+    "grade": "Cadre supérieur de santé ",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "5300",
+    "grade": "Psychologues de classe normale",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "5302",
+    "grade": "Psychologues hors classe",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "5462",
+    "grade": "Infirmier en soins généraux",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "5460",
+    "grade": "Infirmier en soins généraux hors classe",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": 5413,
+    "grade": "Puéricultrices",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": 5415,
+    "grade": "Puéricultrices hors classe",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "5975",
+    "grade": "Educateur de jeunes enfants",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "5978",
+    "grade": "Educateur de jeunes enfants de classe exceptionnelle",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": 5931,
+    "grade": "Assistant socio-éducatif",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": 5932,
+    "grade": "Assistant socio-éducatif de classe exceptionnelle",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "89",
+    "regime": "Responsable d'unité expertise informatique",
+    "grade_code": "1010",
+    "grade": "Attaché",
+    "montant": 1315.0
+  },
+  {
+    "code_regime": "89",
+    "regime": "Responsable d'unité expertise informatique",
+    "grade_code": "1019",
+    "grade": "Attaché principal",
+    "montant": 1455.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "1010",
+    "grade": "Attaché",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "1019",
+    "grade": "Attaché principal",
+    "montant": 930.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "3306",
+    "grade": "Attachés conservation",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "3308",
+    "grade": "Attachés conservation principal",
+    "montant": 930.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "3406",
+    "grade": "Bibliothécaire",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "3408",
+    "grade": "Bibliothécaire principal",
+    "montant": 930.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "4000",
+    "grade": "Conseiller des APS",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "4006",
+    "grade": "Conseiller principal des APS",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "5730",
+    "grade": "Cadre de santé",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "5732",
+    "grade": "Cadre supérieur de santé ",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "5300",
+    "grade": "Psychologues de classe normale",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "5302",
+    "grade": "Psychologues hors classe",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "5462",
+    "grade": "Infirmier en soins généraux",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "5460",
+    "grade": "Infirmier en soins généraux hors classe",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": 5413,
+    "grade": "Puéricultrices",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": 5415,
+    "grade": "Puéricultrices hors classe",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "5975",
+    "grade": "Educateur de jeunes enfants",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "5978",
+    "grade": "Educateur de jeunes enfants de classe exceptionnelle",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": 5931,
+    "grade": "Assistant socio-éducatif",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": 5932,
+    "grade": "Assistant socio-éducatif de classe exceptionnelle",
+    "montant": 790.0
+  },
+  {
+    "code_regime": "84",
+    "regime": "Responsable d'équipe expertise informatique",
+    "grade_code": "1010",
+    "grade": "Attaché",
+    "montant": 1315.0
+  },
+  {
+    "code_regime": "84",
+    "regime": "Responsable d'équipe expertise informatique",
+    "grade_code": "1019",
+    "grade": "Attaché principal",
+    "montant": 1455.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "1010",
+    "grade": "Attaché",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": 1016,
+    "grade": "Directeur ter",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "1019",
+    "grade": "Attaché principal",
+    "montant": 850.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": 2724,
+    "grade": "Ingénieur HCl",
+    "montant": 1100.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": 2722,
+    "grade": "Ingénieur Pal",
+    "montant": 1100.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": 2720,
+    "grade": "Ingénieur",
+    "montant": 1100.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "3306",
+    "grade": "Attachés conservation",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "3308",
+    "grade": "Attachés conservation principal",
+    "montant": 850.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "3406",
+    "grade": "Bibliothécaire",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "3408",
+    "grade": "Bibliothécaire principal",
+    "montant": 850.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "4000",
+    "grade": "Conseiller des APS",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "4006",
+    "grade": "Conseiller principal des APS",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "5905",
+    "grade": "Conseiller socio-éducatif",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "5906",
+    "grade": "Conseiller supérieur socio-éducatif",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "5907",
+    "grade": "Conseiller hors classe socio-éducatif",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": 5413,
+    "grade": "Puéricultrices",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": 5415,
+    "grade": "Puéricultrices hors classe",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "5157",
+    "grade": "Sage-femme de classe normale",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "5159",
+    "grade": "Sage-femme hors-classe",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "5300",
+    "grade": "Psychologues de classe normale",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "5302",
+    "grade": "Psychologues hors classe",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "5460",
+    "grade": "Infirmier en soins généraux",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "5462",
+    "grade": "Infirmier en soins généraux hors classe",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "5714",
+    "grade": "Pédi Podo Ergo Orthopt classe normale",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "5717",
+    "grade": "Pédi Podo Ergo Orthopt hors classe",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "5730",
+    "grade": "Cadre de santé",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "5732",
+    "grade": "Cadre supérieur de santé ",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "5736",
+    "grade": "Masseurs Kiné Psychomot Orthophonistes territoriaux classe normale",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": 5737,
+    "grade": "Masseurs Kiné Psychomot Orthophonistes territoriaux hors classe",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": 5931,
+    "grade": "Assistant socio-éducatif",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": 5932,
+    "grade": "Assistant socio-éducatif de classe exceptionnelle",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "5975",
+    "grade": "Educateur de jeunes enfants",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "5978",
+    "grade": "Educateur de jeunes enfants de classe exceptionnelle",
+    "montant": 700.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant direction ou coordination",
+    "grade_code": "1010",
+    "grade": "Attaché",
+    "montant": 750.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant direction ou coordination",
+    "grade_code": "1019",
+    "grade": "Attaché principal",
+    "montant": 900.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant direction ou coordination",
+    "grade_code": 2724,
+    "grade": "Ingénieur HCl",
+    "montant": 1375.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant direction ou coordination",
+    "grade_code": 2722,
+    "grade": "Ingénieur Pal",
+    "montant": 1375.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant direction ou coordination",
+    "grade_code": 2720,
+    "grade": "Ingénieur",
+    "montant": 1375.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant direction ou coordination",
+    "grade_code": "3306",
+    "grade": "Attachés conservation",
+    "montant": 750.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant direction ou coordination",
+    "grade_code": "3308",
+    "grade": "Attachés conservation principal",
+    "montant": 900.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant direction ou coordination",
+    "grade_code": "3406",
+    "grade": "Bibliothécaire",
+    "montant": 750.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant direction ou coordination",
+    "grade_code": "3408",
+    "grade": "Bibliothécaire principal",
+    "montant": 900.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant direction ou coordination",
+    "grade_code": "4000",
+    "grade": "Conseiller des APS",
+    "montant": 750.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant direction ou coordination",
+    "grade_code": "4006",
+    "grade": "Conseiller principal des APS",
+    "montant": 750.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant direction ou coordination",
+    "grade_code": "5905",
+    "grade": "Conseiller socio-éducatif",
+    "montant": 750.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant direction ou coordination",
+    "grade_code": "5906",
+    "grade": "Conseiller supérieur socio-éducatif",
+    "montant": 750.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant direction ou coordination",
+    "grade_code": "5907",
+    "grade": "Conseiller hors classe socio-éducatif",
+    "montant": 750.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant direction ou coordination",
+    "grade_code": 5413,
+    "grade": "Puéricultrices",
+    "montant": 750.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant direction ou coordination",
+    "grade_code": 5415,
+    "grade": "Puéricultrices hors classe",
+    "montant": 750.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant direction ou coordination",
+    "grade_code": "5157",
+    "grade": "Sage-femme de classe normale",
+    "montant": 750.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant direction ou coordination",
+    "grade_code": "5159",
+    "grade": "Sage-femme hors-classe",
+    "montant": 750.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant direction ou coordination",
+    "grade_code": "5300",
+    "grade": "Psychologues de classe normale",
+    "montant": 750.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant direction ou coordination",
+    "grade_code": "5302",
+    "grade": "Psychologues hors classe",
+    "montant": 750.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant direction ou coordination",
+    "grade_code": "5460",
+    "grade": "Infirmier en soins généraux",
+    "montant": 750.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant direction ou coordination",
+    "grade_code": "5462",
+    "grade": "Infirmier en soins généraux hors classe",
+    "montant": 750.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant direction ou coordination",
+    "grade_code": "5714",
+    "grade": "Pédi Podo Ergo Orthopt classe normale",
+    "montant": 750.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant direction ou coordination",
+    "grade_code": "5716",
+    "grade": "Pédi Podo Ergo Orthopt hors classe",
+    "montant": 750.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant direction ou coordination",
+    "grade_code": "5730",
+    "grade": "Cadre de santé",
+    "montant": 750.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant direction ou coordination",
+    "grade_code": "5732",
+    "grade": "Cadre supérieur de santé ",
+    "montant": 750.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant direction ou coordination",
+    "grade_code": "5736",
+    "grade": "Masseurs Kiné Psychomot Orthophonistes territoriaux classe normale",
+    "montant": 750.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant direction ou coordination",
+    "grade_code": "5738",
+    "grade": "Masseurs Kiné Psychomot Orthophonistes territoriaux hors classe",
+    "montant": 750.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant direction ou coordination",
+    "grade_code": 5931,
+    "grade": "Assistant socio-éducatif",
+    "montant": 750.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant direction ou coordination",
+    "grade_code": 5932,
+    "grade": "Assistant socio-éducatif de classe exceptionnelle",
+    "montant": 750.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant direction ou coordination",
+    "grade_code": "5975",
+    "grade": "Educateur de jeunes enfants",
+    "montant": 750.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant direction ou coordination",
+    "grade_code": "5978",
+    "grade": "Educateur de jeunes enfants de classe exceptionnelle",
+    "montant": 750.0
+  },
+  {
+    "code_regime": 21,
+    "regime": "Expertise informatique",
+    "grade_code": "1010",
+    "grade": "Attaché",
+    "montant": 1225.0
+  },
+  {
+    "code_regime": 21,
+    "regime": "Expertise informatique",
+    "grade_code": "1019",
+    "grade": "Attaché principal",
+    "montant": 1375.0
+  },
+  {
+    "code_regime": 21,
+    "regime": "Expertise informatique",
+    "grade_code": 2724,
+    "grade": "Ingénieur HCl",
+    "montant": 1625.0
+  },
+  {
+    "code_regime": 21,
+    "regime": "Expertise informatique",
+    "grade_code": 2722,
+    "grade": "Ingénieur Pal",
+    "montant": 1625.0
+  },
+  {
+    "code_regime": 21,
+    "regime": "Expertise informatique",
+    "grade_code": 2720,
+    "grade": "Ingénieur",
+    "montant": 1625.0
+  },
+  {
+    "code_regime": 86,
+    "regime": "Non encadrant.e direction ou coordination expertise informatique",
+    "grade_code": "1010",
+    "grade": "Attaché",
+    "montant": 1275.0
+  },
+  {
+    "code_regime": 86,
+    "regime": "Non encadrant.e direction ou coordination expertise informatique",
+    "grade_code": "1019",
+    "grade": "Attaché principal",
+    "montant": 1425.0
+  },
+  {
+    "code_regime": 86,
+    "regime": "Non encadrant.e direction ou coordination expertise informatique",
+    "grade_code": 2724,
+    "grade": "Ingénieur HCl",
+    "montant": 1900.0
+  },
+  {
+    "code_regime": 86,
+    "regime": "Non encadrant.e direction ou coordination expertise informatique",
+    "grade_code": 2722,
+    "grade": "Ingénieur Pal",
+    "montant": 1900.0
+  },
+  {
+    "code_regime": 86,
+    "regime": "Non encadrant.e direction ou coordination expertise informatique",
+    "grade_code": 2720,
+    "grade": "Ingénieur",
+    "montant": 1900.0
+  },
+  {
+    "code_regime": 24,
+    "regime": "Sujétions niveau 2",
+    "grade_code": "5460",
+    "grade": "Infirmier en soins généraux",
+    "montant": 715.0
+  },
+  {
+    "code_regime": 24,
+    "regime": "Sujétions niveau 2",
+    "grade_code": "5462",
+    "grade": "Infirmier en soins généraux hors classe",
+    "montant": 715.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": "1036",
+    "grade": "Rédacteur",
+    "montant": 950.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": "1037",
+    "grade": "Rédacteur principal 2° classe",
+    "montant": 950.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": "1038",
+    "grade": "Rédacteur principal 1° classe",
+    "montant": 950.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": 2010,
+    "grade": "Technicien",
+    "montant": 980.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": 2012,
+    "grade": "Technicien principal 2° classe",
+    "montant": 980.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": 2014,
+    "grade": "Technicien principal 1° classe",
+    "montant": 980.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": "3610",
+    "grade": "Assistants conservation",
+    "montant": 950.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": "3612",
+    "grade": "Assistants conservation principal 2° classe",
+    "montant": 950.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": "3614",
+    "grade": "Assistants conservation principal 1° classe",
+    "montant": 950.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": "4110",
+    "grade": "Educateur APS",
+    "montant": 950.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": "4112",
+    "grade": "Educateur APS principal 2° classe",
+    "montant": 950.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": "4114",
+    "grade": "Educateur APS principal 1° classe",
+    "montant": 950.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": 5612,
+    "grade": "Auxiliaire de puériculture de classe normale",
+    "montant": 950.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": 5614,
+    "grade": "Auxiliaire de puériculture de classe supérieure",
+    "montant": 950.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": 5664,
+    "grade": "Aide soignant de classe normale",
+    "montant": 950.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": 5662,
+    "grade": "Aide soignant de classe supérieure",
+    "montant": 950.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": "8005",
+    "grade": "Animateur",
+    "montant": 950.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": "8006",
+    "grade": "Animateur principal 2° classe",
+    "montant": 950.0
+  },
+  {
+    "code_regime": "03",
+    "regime": "Responsable de service",
+    "grade_code": "8007",
+    "grade": "Animateur principal 1° classe",
+    "montant": 950.0
+  },
+  {
+    "code_regime": "81",
+    "regime": "Responsable de service expertise informatique",
+    "grade_code": "1036",
+    "grade": "Rédacteur",
+    "montant": 1475.0
+  },
+  {
+    "code_regime": "81",
+    "regime": "Responsable de service expertise informatique",
+    "grade_code": "1037",
+    "grade": "Rédacteur principal 2° classe",
+    "montant": 1475.0
+  },
+  {
+    "code_regime": "81",
+    "regime": "Responsable de service expertise informatique",
+    "grade_code": "1038",
+    "grade": "Rédacteur principal 1° classe",
+    "montant": 1475.0
+  },
+  {
+    "code_regime": "81",
+    "regime": "Responsable de service expertise informatique",
+    "grade_code": 2010,
+    "grade": "Technicien",
+    "montant": 1505.0
+  },
+  {
+    "code_regime": "81",
+    "regime": "Responsable de service expertise informatique",
+    "grade_code": 2012,
+    "grade": "Technicien principal 2° classe",
+    "montant": 1505.0
+  },
+  {
+    "code_regime": "81",
+    "regime": "Responsable de service expertise informatique",
+    "grade_code": 2014,
+    "grade": "Technicien principal 1° classe",
+    "montant": 1505.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "1036",
+    "grade": "Rédacteur",
+    "montant": 850.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "1037",
+    "grade": "Rédacteur principal 2° classe",
+    "montant": 850.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "1038",
+    "grade": "Rédacteur principal 1° classe",
+    "montant": 850.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": 2010,
+    "grade": "Technicien",
+    "montant": 880.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": 2012,
+    "grade": "Technicien principal 2° classe",
+    "montant": 880.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": 2014,
+    "grade": "Technicien principal 1° classe",
+    "montant": 880.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "3610",
+    "grade": "Assistants conservation",
+    "montant": 850.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "3612",
+    "grade": "Assistants conservation principal 2° classe",
+    "montant": 850.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "3614",
+    "grade": "Assistants conservation principal 1° classe",
+    "montant": 850.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "4110",
+    "grade": "Educateur APS",
+    "montant": 850.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "4112",
+    "grade": "Educateur APS principal 2° classe",
+    "montant": 850.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "4114",
+    "grade": "Educateur APS principal 1° classe",
+    "montant": 850.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": 5612,
+    "grade": "Auxiliaire de puériculture de classe normale",
+    "montant": 850.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": 5614,
+    "grade": "Auxiliaire de puériculture de classe supérieure",
+    "montant": 850.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": 5664,
+    "grade": "Aide soignant de classe normale",
+    "montant": 850.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": 5662,
+    "grade": "Aide soignant de classe supérieure",
+    "montant": 850.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "8005",
+    "grade": "Animateur",
+    "montant": 850.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "8006",
+    "grade": "Animateur principal 2° classe",
+    "montant": 850.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "8007",
+    "grade": "Animateur principal 1° classe",
+    "montant": 850.0
+  },
+  {
+    "code_regime": "87",
+    "regime": "Responsable de secteur expertise informatique poste A",
+    "grade_code": "1036",
+    "grade": "Rédacteur",
+    "montant": 1375.0
+  },
+  {
+    "code_regime": "87",
+    "regime": "Responsable de secteur expertise informatique poste A",
+    "grade_code": "1037",
+    "grade": "Rédacteur principal 2° classe",
+    "montant": 1375.0
+  },
+  {
+    "code_regime": "87",
+    "regime": "Responsable de secteur expertise informatique poste A",
+    "grade_code": "1038",
+    "grade": "Rédacteur principal 1° classe",
+    "montant": 1375.0
+  },
+  {
+    "code_regime": "87",
+    "regime": "Responsable de secteur expertise informatique poste A",
+    "grade_code": 2010,
+    "grade": "Technicien",
+    "montant": 1405.0
+  },
+  {
+    "code_regime": "87",
+    "regime": "Responsable de secteur expertise informatique poste A",
+    "grade_code": 2012,
+    "grade": "Technicien principal 2° classe",
+    "montant": 1405.0
+  },
+  {
+    "code_regime": "87",
+    "regime": "Responsable de secteur expertise informatique poste A",
+    "grade_code": 2014,
+    "grade": "Technicien principal 1° classe",
+    "montant": 1405.0
+  },
+  {
+    "code_regime": "82",
+    "regime": "Responsable de secteur expertise informatique",
+    "grade_code": "1036",
+    "grade": "Rédacteur",
+    "montant": 1200.0
+  },
+  {
+    "code_regime": "82",
+    "regime": "Responsable de secteur expertise informatique",
+    "grade_code": "1037",
+    "grade": "Rédacteur principal 2° classe",
+    "montant": 1200.0
+  },
+  {
+    "code_regime": "82",
+    "regime": "Responsable de secteur expertise informatique",
+    "grade_code": "1038",
+    "grade": "Rédacteur principal 1° classe",
+    "montant": 1200.0
+  },
+  {
+    "code_regime": "82",
+    "regime": "Responsable de secteur expertise informatique",
+    "grade_code": 2010,
+    "grade": "Technicien",
+    "montant": 1230.0
+  },
+  {
+    "code_regime": "82",
+    "regime": "Responsable de secteur expertise informatique",
+    "grade_code": 2012,
+    "grade": "Technicien principal 2° classe",
+    "montant": 1230.0
+  },
+  {
+    "code_regime": "82",
+    "regime": "Responsable de secteur expertise informatique",
+    "grade_code": 2014,
+    "grade": "Technicien principal 1° classe",
+    "montant": 1230.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "1036",
+    "grade": "Rédacteur",
+    "montant": 770.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "1037",
+    "grade": "Rédacteur principal 2° classe",
+    "montant": 770.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "1038",
+    "grade": "Rédacteur principal 1° classe",
+    "montant": 770.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": 2010,
+    "grade": "Technicien",
+    "montant": 780.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": 2012,
+    "grade": "Technicien principal 2° classe",
+    "montant": 780.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": 2014,
+    "grade": "Technicien principal 1° classe",
+    "montant": 780.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "3610",
+    "grade": "Assistants conservation",
+    "montant": 770.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "3612",
+    "grade": "Assistants conservation principal 2° classe",
+    "montant": 770.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "3614",
+    "grade": "Assistants conservation principal 1° classe",
+    "montant": 770.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "4110",
+    "grade": "Educateur APS",
+    "montant": 770.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "4112",
+    "grade": "Educateur APS principal 2° classe",
+    "montant": 770.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "4114",
+    "grade": "Educateur APS principal 1° classe",
+    "montant": 770.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": 5612,
+    "grade": "Auxiliaire de puériculture de classe normale",
+    "montant": 770.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": 5614,
+    "grade": "Auxiliaire de puériculture de classe supérieure",
+    "montant": 770.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": 5664,
+    "grade": "Aide soignant de classe normale",
+    "montant": 770.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": 5662,
+    "grade": "Aide soignant de classe supérieure",
+    "montant": 770.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "8005",
+    "grade": "Animateur",
+    "montant": 770.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "8006",
+    "grade": "Animateur principal 2° classe",
+    "montant": 770.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "8007",
+    "grade": "Animateur principal 1° classe",
+    "montant": 770.0
+  },
+  {
+    "code_regime": "88",
+    "regime": "Responsable d'unité expertise informatique poste A",
+    "grade_code": "1036",
+    "grade": "Rédacteur",
+    "montant": 1295.0
+  },
+  {
+    "code_regime": "88",
+    "regime": "Responsable d'unité expertise informatique poste A",
+    "grade_code": "1037",
+    "grade": "Rédacteur principal 2° classe",
+    "montant": 1295.0
+  },
+  {
+    "code_regime": "88",
+    "regime": "Responsable d'unité expertise informatique poste A",
+    "grade_code": "1038",
+    "grade": "Rédacteur principal 1° classe",
+    "montant": 1295.0
+  },
+  {
+    "code_regime": "88",
+    "regime": "Responsable d'unité expertise informatique poste A",
+    "grade_code": 2010,
+    "grade": "Technicien",
+    "montant": 1405.0
+  },
+  {
+    "code_regime": "88",
+    "regime": "Responsable d'unité expertise informatique poste A",
+    "grade_code": 2012,
+    "grade": "Technicien principal 2° classe",
+    "montant": 1405.0
+  },
+  {
+    "code_regime": "88",
+    "regime": "Responsable d'unité expertise informatique poste A",
+    "grade_code": 2014,
+    "grade": "Technicien principal 1° classe",
+    "montant": 1405.0
+  },
+  {
+    "code_regime": "89",
+    "regime": "Responsable d'unité expertise informatique",
+    "grade_code": "1036",
+    "grade": "Rédacteur",
+    "montant": 1120.0
+  },
+  {
+    "code_regime": "89",
+    "regime": "Responsable d'unité expertise informatique",
+    "grade_code": "1037",
+    "grade": "Rédacteur principal 2° classe",
+    "montant": 1120.0
+  },
+  {
+    "code_regime": "89",
+    "regime": "Responsable d'unité expertise informatique",
+    "grade_code": "1038",
+    "grade": "Rédacteur principal 1° classe",
+    "montant": 1120.0
+  },
+  {
+    "code_regime": "89",
+    "regime": "Responsable d'unité expertise informatique",
+    "grade_code": 2010,
+    "grade": "Technicien",
+    "montant": 1130.0
+  },
+  {
+    "code_regime": "89",
+    "regime": "Responsable d'unité expertise informatique",
+    "grade_code": 2012,
+    "grade": "Technicien principal 2° classe",
+    "montant": 1130.0
+  },
+  {
+    "code_regime": "89",
+    "regime": "Responsable d'unité expertise informatique",
+    "grade_code": 2014,
+    "grade": "Technicien principal 1° classe",
+    "montant": 1130.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "1036",
+    "grade": "Rédacteur",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "1037",
+    "grade": "Rédacteur principal 2° classe",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "1038",
+    "grade": "Rédacteur principal 1° classe",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": 2010,
+    "grade": "Technicien",
+    "montant": 730.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": 2012,
+    "grade": "Technicien principal 2° classe",
+    "montant": 730.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": 2014,
+    "grade": "Technicien principal 1° classe",
+    "montant": 730.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "3610",
+    "grade": "Assistants conservation",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "3612",
+    "grade": "Assistants conservation principal 2° classe",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "3614",
+    "grade": "Assistants conservation principal 1° classe",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "4110",
+    "grade": "Educateur APS",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "4112",
+    "grade": "Educateur APS principal 2° classe",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "4114",
+    "grade": "Educateur APS principal 1° classe",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": 5612,
+    "grade": "Auxiliaire de puériculture de classe normale",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": 5614,
+    "grade": "Auxiliaire de puériculture de classe supérieure",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": 5664,
+    "grade": "Aide soignant de classe normale",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": 5662,
+    "grade": "Aide soignant de classe supérieure",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "8005",
+    "grade": "Animateur",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "8006",
+    "grade": "Animateur principal 2° classe",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "8007",
+    "grade": "Animateur principal 1° classe",
+    "montant": 700.0
+  },
+  {
+    "code_regime": "90",
+    "regime": "Responsable d'équipe expertise informatique poste A",
+    "grade_code": "1036",
+    "grade": "Rédacteur",
+    "montant": 1225.0
+  },
+  {
+    "code_regime": "90",
+    "regime": "Responsable d'équipe expertise informatique poste A",
+    "grade_code": "1037",
+    "grade": "Rédacteur principal 2° classe",
+    "montant": 1225.0
+  },
+  {
+    "code_regime": "90",
+    "regime": "Responsable d'équipe expertise informatique poste A",
+    "grade_code": "1038",
+    "grade": "Rédacteur principal 1° classe",
+    "montant": 1225.0
+  },
+  {
+    "code_regime": "90",
+    "regime": "Responsable d'équipe expertise informatique poste A",
+    "grade_code": 2010,
+    "grade": "Technicien",
+    "montant": 1405.0
+  },
+  {
+    "code_regime": "90",
+    "regime": "Responsable d'équipe expertise informatique poste A",
+    "grade_code": 2012,
+    "grade": "Technicien principal 2° classe",
+    "montant": 1405.0
+  },
+  {
+    "code_regime": "90",
+    "regime": "Responsable d'équipe expertise informatique poste A",
+    "grade_code": 2014,
+    "grade": "Technicien principal 1° classe",
+    "montant": 1405.0
+  },
+  {
+    "code_regime": "84",
+    "regime": "Responsable d'équipe expertise informatique",
+    "grade_code": "1036",
+    "grade": "Rédacteur",
+    "montant": 1050.0
+  },
+  {
+    "code_regime": "84",
+    "regime": "Responsable d'équipe expertise informatique",
+    "grade_code": "1037",
+    "grade": "Rédacteur principal 2° classe",
+    "montant": 1050.0
+  },
+  {
+    "code_regime": "84",
+    "regime": "Responsable d'équipe expertise informatique",
+    "grade_code": "1038",
+    "grade": "Rédacteur principal 1° classe",
+    "montant": 1050.0
+  },
+  {
+    "code_regime": "84",
+    "regime": "Responsable d'équipe expertise informatique",
+    "grade_code": 2010,
+    "grade": "Technicien",
+    "montant": 1080.0
+  },
+  {
+    "code_regime": "84",
+    "regime": "Responsable d'équipe expertise informatique",
+    "grade_code": 2012,
+    "grade": "Technicien principal 2° classe",
+    "montant": 1080.0
+  },
+  {
+    "code_regime": "84",
+    "regime": "Responsable d'équipe expertise informatique",
+    "grade_code": 2014,
+    "grade": "Technicien principal 1° classe",
+    "montant": 1080.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "1036",
+    "grade": "Rédacteur",
+    "montant": 640.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "1037",
+    "grade": "Rédacteur principal 2° classe",
+    "montant": 640.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "1038",
+    "grade": "Rédacteur principal 1° classe",
+    "montant": 640.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": 2010,
+    "grade": "Technicien",
+    "montant": 880.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": 2012,
+    "grade": "Technicien principal 2° classe",
+    "montant": 880.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": 2014,
+    "grade": "Technicien principal 1° classe",
+    "montant": 880.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "3610",
+    "grade": "Assistants conservation",
+    "montant": 640.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "3612",
+    "grade": "Assistants conservation principal 2° classe",
+    "montant": 640.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "3614",
+    "grade": "Assistants conservation principal 1° classe",
+    "montant": 640.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": 5612,
+    "grade": "Auxiliaire de puériculture de classe normale",
+    "montant": 640.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": 5614,
+    "grade": "Auxiliaire de puériculture de classe supérieure",
+    "montant": 640.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": 5664,
+    "grade": "Aide soignant de classe normale",
+    "montant": 640.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": 5662,
+    "grade": "Aide soignant de classe supérieure",
+    "montant": 640.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "4110",
+    "grade": "Educateur APS",
+    "montant": 640.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "4112",
+    "grade": "Educateur APS principal 2° classe",
+    "montant": 640.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "4114",
+    "grade": "Educateur APS principal 1° classe",
+    "montant": 640.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "8005",
+    "grade": "Animateur",
+    "montant": 640.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "8006",
+    "grade": "Animateur principal 2° classe",
+    "montant": 640.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "8007",
+    "grade": "Animateur principal 1° classe",
+    "montant": 640.0
+  },
+  {
+    "code_regime": 28,
+    "regime": "Fonctions de catégorie supérieure expertise informatique",
+    "grade_code": "1036",
+    "grade": "Rédacteur",
+    "montant": 1165.0
+  },
+  {
+    "code_regime": 28,
+    "regime": "Fonctions de catégorie supérieure expertise informatique",
+    "grade_code": "1037",
+    "grade": "Rédacteur principal 2° classe",
+    "montant": 1165.0
+  },
+  {
+    "code_regime": 28,
+    "regime": "Fonctions de catégorie supérieure expertise informatique",
+    "grade_code": "1038",
+    "grade": "Rédacteur principal 1° classe",
+    "montant": 1165.0
+  },
+  {
+    "code_regime": 28,
+    "regime": "Fonctions de catégorie supérieure expertise informatique",
+    "grade_code": 2010,
+    "grade": "Technicien",
+    "montant": 1405.0
+  },
+  {
+    "code_regime": 28,
+    "regime": "Fonctions de catégorie supérieure expertise informatique",
+    "grade_code": 2012,
+    "grade": "Technicien principal 2° classe",
+    "montant": 1405.0
+  },
+  {
+    "code_regime": 28,
+    "regime": "Fonctions de catégorie supérieure expertise informatique",
+    "grade_code": 2014,
+    "grade": "Technicien principal 1° classe",
+    "montant": 1405.0
+  },
+  {
+    "code_regime": null,
+    "regime": "Non encadrant.e",
+    "grade_code": "1036",
+    "grade": "Rédacteur",
+    "montant": 570.0
+  },
+  {
+    "code_regime": null,
+    "regime": "Non encadrant.e",
+    "grade_code": "1037",
+    "grade": "Rédacteur principal 2° classe",
+    "montant": 570.0
+  },
+  {
+    "code_regime": null,
+    "regime": "Non encadrant.e",
+    "grade_code": "1038",
+    "grade": "Rédacteur principal 1° classe",
+    "montant": 570.0
+  },
+  {
+    "code_regime": null,
+    "regime": "Non encadrant.e",
+    "grade_code": 2010,
+    "grade": "Technicien",
+    "montant": 630.0
+  },
+  {
+    "code_regime": null,
+    "regime": "Non encadrant.e",
+    "grade_code": 2012,
+    "grade": "Technicien principal 2° classe",
+    "montant": 630.0
+  },
+  {
+    "code_regime": null,
+    "regime": "Non encadrant.e",
+    "grade_code": 2014,
+    "grade": "Technicien principal 1° classe",
+    "montant": 630.0
+  },
+  {
+    "code_regime": null,
+    "regime": "Non encadrant.e",
+    "grade_code": "3610",
+    "grade": "Assistants conservation",
+    "montant": 570.0
+  },
+  {
+    "code_regime": null,
+    "regime": "Non encadrant.e",
+    "grade_code": "3612",
+    "grade": "Assistants conservation principal 2° classe",
+    "montant": 570.0
+  },
+  {
+    "code_regime": null,
+    "regime": "Non encadrant.e",
+    "grade_code": "3614",
+    "grade": "Assistants conservation principal 1° classe",
+    "montant": 570.0
+  },
+  {
+    "code_regime": null,
+    "regime": "Non encadrant.e",
+    "grade_code": 5612,
+    "grade": "Auxiliaire de puériculture de classe normale",
+    "montant": 570.0
+  },
+  {
+    "code_regime": null,
+    "regime": "Non encadrant.e",
+    "grade_code": 5614,
+    "grade": "Auxiliaire de puériculture de classe supérieure",
+    "montant": 570.0
+  },
+  {
+    "code_regime": null,
+    "regime": "Non encadrant.e",
+    "grade_code": 5664,
+    "grade": "Aide soignant de classe normale",
+    "montant": 570.0
+  },
+  {
+    "code_regime": null,
+    "regime": "Non encadrant.e",
+    "grade_code": 5662,
+    "grade": "Aide soignant de classe supérieure",
+    "montant": 570.0
+  },
+  {
+    "code_regime": null,
+    "regime": "Non encadrant.e",
+    "grade_code": "4110",
+    "grade": "Educateur APS",
+    "montant": 570.0
+  },
+  {
+    "code_regime": null,
+    "regime": "Non encadrant.e",
+    "grade_code": "4112",
+    "grade": "Educateur APS principal 2° classe",
+    "montant": 570.0
+  },
+  {
+    "code_regime": null,
+    "regime": "Non encadrant.e",
+    "grade_code": "4114",
+    "grade": "Educateur APS principal 1° classe",
+    "montant": 570.0
+  },
+  {
+    "code_regime": null,
+    "regime": "Non encadrant.e",
+    "grade_code": "8005",
+    "grade": "Animateur",
+    "montant": 570.0
+  },
+  {
+    "code_regime": null,
+    "regime": "Non encadrant.e",
+    "grade_code": "8006",
+    "grade": "Animateur principal 2° classe",
+    "montant": 570.0
+  },
+  {
+    "code_regime": null,
+    "regime": "Non encadrant.e",
+    "grade_code": "8007",
+    "grade": "Animateur principal 1° classe",
+    "montant": 570.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant.e direction ou coordination",
+    "grade_code": 2010,
+    "grade": "Technicien",
+    "montant": 730.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant.e direction ou coordination",
+    "grade_code": 2012,
+    "grade": "Technicien principal 2° classe",
+    "montant": 730.0
+  },
+  {
+    "code_regime": 31,
+    "regime": "Non encadrant.e direction ou coordination",
+    "grade_code": 2014,
+    "grade": "Technicien principal 1° classe",
+    "montant": 730.0
+  },
+  {
+    "code_regime": 83,
+    "regime": "Technicien réseau DSI",
+    "grade_code": 2010,
+    "grade": "Technicien",
+    "montant": 1155.0
+  },
+  {
+    "code_regime": 83,
+    "regime": "Technicien réseau DSI",
+    "grade_code": 2012,
+    "grade": "Technicien principal 2° classe",
+    "montant": 1155.0
+  },
+  {
+    "code_regime": 83,
+    "regime": "Technicien réseau DSI",
+    "grade_code": 2014,
+    "grade": "Technicien principal 1° classe",
+    "montant": 1155.0
+  },
+  {
+    "code_regime": 21,
+    "regime": "Expertise informatique",
+    "grade_code": "1036",
+    "grade": "Rédacteur",
+    "montant": 920.0
+  },
+  {
+    "code_regime": 21,
+    "regime": "Expertise informatique",
+    "grade_code": "1037",
+    "grade": "Rédacteur principal 2° classe",
+    "montant": 920.0
+  },
+  {
+    "code_regime": 21,
+    "regime": "Expertise informatique",
+    "grade_code": "1038",
+    "grade": "Rédacteur principal 1° classe",
+    "montant": 920.0
+  },
+  {
+    "code_regime": 21,
+    "regime": "Expertise informatique",
+    "grade_code": 2010,
+    "grade": "Technicien",
+    "montant": 980.0
+  },
+  {
+    "code_regime": 21,
+    "regime": "Expertise informatique",
+    "grade_code": 2012,
+    "grade": "Technicien principal 2° classe",
+    "montant": 980.0
+  },
+  {
+    "code_regime": 21,
+    "regime": "Expertise informatique",
+    "grade_code": 2014,
+    "grade": "Technicien principal 1° classe",
+    "montant": 980.0
+  },
+  {
+    "code_regime": "86",
+    "regime": "Non encadrant direct ou coord exp info",
+    "grade_code": 2010,
+    "grade": "Technicien",
+    "montant": 1080.0
+  },
+  {
+    "code_regime": "86",
+    "regime": "Non encadrant direct ou coord exp info",
+    "grade_code": 2012,
+    "grade": "Technicien principal 2° classe",
+    "montant": 1080.0
+  },
+  {
+    "code_regime": "86",
+    "regime": "Non encadrant direct ou coord exp info",
+    "grade_code": 2014,
+    "grade": "Technicien principal 1° classe",
+    "montant": 1080.0
+  },
+  {
+    "code_regime": 24,
+    "regime": "Sujétions niveau 2",
+    "grade_code": 5664,
+    "grade": "Aide soignant de classe normale",
+    "montant": 585.0
+  },
+  {
+    "code_regime": 24,
+    "regime": "Sujétions niveau 2",
+    "grade_code": 5662,
+    "grade": "Aide soignant de classe supérieure",
+    "montant": 585.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "1054",
+    "grade": "Adjoint administratif",
+    "montant": 427.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "1057",
+    "grade": "Adjoint administratif Principal 2° classe ",
+    "montant": 461.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "1058",
+    "grade": "Adjoint administratif Principal 1° classe ",
+    "montant": 464.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "3808",
+    "grade": "Adjoint patrimoine",
+    "montant": 427.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "3814",
+    "grade": "Adjoint patrimoine principal 2° classe ",
+    "montant": 461.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "3816",
+    "grade": "Adjoint patrimoine principal 1° classe ",
+    "montant": 464.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "4201",
+    "grade": "Opérateur APS",
+    "montant": 427.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "4204",
+    "grade": "Opérateur APS qualifié",
+    "montant": 461.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "4208",
+    "grade": "Opérateur APS principal",
+    "montant": 464.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "5984",
+    "grade": "ATSEM principal 2° classe",
+    "montant": 461.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "5986",
+    "grade": "ATSEM principal 1° classe",
+    "montant": 464.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "5993",
+    "grade": "Agent social",
+    "montant": 427.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "5997",
+    "grade": "Agent social principal 2° classe",
+    "montant": 461.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "5998",
+    "grade": "Agent social principal 1° classe",
+    "montant": 464.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "8028",
+    "grade": "Adjoint animation",
+    "montant": 427.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "8034",
+    "grade": "Adjoint animation principal 2° classe ",
+    "montant": 461.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "8036",
+    "grade": "Adjoint animation principal 1° classe ",
+    "montant": 464.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "2200",
+    "grade": "Agents de maîtrise",
+    "montant": 440.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "2208",
+    "grade": "Agents de maîtrise principal",
+    "montant": 450.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "2410",
+    "grade": "Adjoint technique",
+    "montant": 426.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "2416",
+    "grade": "Adjoint technique principal 2° classe ",
+    "montant": 440.0
+  },
+  {
+    "code_regime": "04",
+    "regime": "Responsable de secteur",
+    "grade_code": "2418",
+    "grade": "Adjoint technique principal 1° classe ",
+    "montant": 450.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "1054",
+    "grade": "Adjoint administratif",
+    "montant": 407.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "1057",
+    "grade": "Adjoint administratif Principal 2° classe ",
+    "montant": 441.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "1058",
+    "grade": "Adjoint administratif Principal 1° classe ",
+    "montant": 444.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "3808",
+    "grade": "Adjoint patrimoine",
+    "montant": 407.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "3814",
+    "grade": "Adjoint patrimoine principal 2° classe ",
+    "montant": 441.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "3816",
+    "grade": "Adjoint patrimoine principal 1° classe ",
+    "montant": 444.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "4201",
+    "grade": "Opérateur APS",
+    "montant": 407.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "4204",
+    "grade": "Opérateur APS qualifié",
+    "montant": 441.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "4208",
+    "grade": "Opérateur APS principal",
+    "montant": 444.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "5984",
+    "grade": "ATSEM principal 2° classe",
+    "montant": 441.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "5986",
+    "grade": "ATSEM principal 1° classe",
+    "montant": 444.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "5993",
+    "grade": "Agent social",
+    "montant": 407.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "5997",
+    "grade": "Agent social principal 2° classe",
+    "montant": 441.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "5998",
+    "grade": "Agent social principal 1° classe",
+    "montant": 444.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "8028",
+    "grade": "Adjoint animation",
+    "montant": 407.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "8034",
+    "grade": "Adjoint animation principal 2° classe ",
+    "montant": 441.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "8036",
+    "grade": "Adjoint animation principal 1° classe ",
+    "montant": 444.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "2200",
+    "grade": "Agents de maîtrise",
+    "montant": 419.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "2208",
+    "grade": "Agents de maîtrise principal",
+    "montant": 429.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "2410",
+    "grade": "Adjoint technique",
+    "montant": 406.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "2416",
+    "grade": "Adjoint technique principal 2° classe ",
+    "montant": 419.0
+  },
+  {
+    "code_regime": "05",
+    "regime": "Responsable d'unité",
+    "grade_code": "2418",
+    "grade": "Adjoint technique principal 1° classe ",
+    "montant": 429.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "1054",
+    "grade": "Adjoint administratif",
+    "montant": 387.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "1057",
+    "grade": "Adjoint administratif Principal 2° classe ",
+    "montant": 421.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "1058",
+    "grade": "Adjoint administratif Principal 1° classe ",
+    "montant": 424.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "3808",
+    "grade": "Adjoint patrimoine",
+    "montant": 387.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "3814",
+    "grade": "Adjoint patrimoine principal 2° classe ",
+    "montant": 421.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "3816",
+    "grade": "Adjoint patrimoine principal 1° classe ",
+    "montant": 424.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "4201",
+    "grade": "Opérateur APS",
+    "montant": 387.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "4204",
+    "grade": "Opérateur APS qualifié",
+    "montant": 421.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "4208",
+    "grade": "Opérateur APS principal",
+    "montant": 424.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "5984",
+    "grade": "ATSEM principal 2° classe",
+    "montant": 421.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "5986",
+    "grade": "ATSEM principal 1° classe",
+    "montant": 424.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "5993",
+    "grade": "Agent social",
+    "montant": 387.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "5997",
+    "grade": "Agent social principal 2° classe",
+    "montant": 421.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "5998",
+    "grade": "Agent social principal 1° classe",
+    "montant": 424.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "8028",
+    "grade": "Adjoint animation",
+    "montant": 387.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "8034",
+    "grade": "Adjoint animation principal 2° classe ",
+    "montant": 421.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "8036",
+    "grade": "Adjoint animation principal 1° classe ",
+    "montant": 424.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "2200",
+    "grade": "Agents de maîtrise",
+    "montant": 399.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "2208",
+    "grade": "Agents de maîtrise principal",
+    "montant": 409.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "2410",
+    "grade": "Adjoint technique",
+    "montant": 386.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "2416",
+    "grade": "Adjoint technique principal 2° classe ",
+    "montant": 399.0
+  },
+  {
+    "code_regime": "06",
+    "regime": "Responsable d'équipe",
+    "grade_code": "2418",
+    "grade": "Adjoint technique principal 1° classe ",
+    "montant": 409.0
+  },
+  {
+    "code_regime": 60,
+    "regime": "Responsable d'équipe - sujétion exhumation",
+    "grade_code": "2200",
+    "grade": "Agents de maîtrise",
+    "montant": 599.0
+  },
+  {
+    "code_regime": 60,
+    "regime": "Responsable d'équipe - sujétion exhumation",
+    "grade_code": "2208",
+    "grade": "Agents de maîtrise principal",
+    "montant": 609.0
+  },
+  {
+    "code_regime": 60,
+    "regime": "Responsable d'équipe - sujétion exhumation",
+    "grade_code": "2410",
+    "grade": "Adjoint technique",
+    "montant": 586.0
+  },
+  {
+    "code_regime": 60,
+    "regime": "Responsable d'équipe - sujétion exhumation",
+    "grade_code": "2416",
+    "grade": "Adjoint technique principal 2° classe ",
+    "montant": 599.0
+  },
+  {
+    "code_regime": 60,
+    "regime": "Responsable d'équipe - sujétion exhumation",
+    "grade_code": "2418",
+    "grade": "Adjoint technique principal 1° classe ",
+    "montant": 609.0
+  },
+  {
+    "code_regime": 61,
+    "regime": "Responsable d'équipe - sujétions niveau 1",
+    "grade_code": "2200",
+    "grade": "Agents de maîtrise",
+    "montant": 409.0
+  },
+  {
+    "code_regime": 61,
+    "regime": "Responsable d'équipe - sujétions niveau 1",
+    "grade_code": "2208",
+    "grade": "Agents de maîtrise principal",
+    "montant": 419.0
+  },
+  {
+    "code_regime": 61,
+    "regime": "Responsable d'équipe - sujétions niveau 1",
+    "grade_code": "2410",
+    "grade": "Adjoint technique",
+    "montant": 396.0
+  },
+  {
+    "code_regime": 61,
+    "regime": "Responsable d'équipe - sujétions niveau 1",
+    "grade_code": "2416",
+    "grade": "Adjoint technique principal 2° classe ",
+    "montant": 409.0
+  },
+  {
+    "code_regime": 61,
+    "regime": "Responsable d'équipe - sujétions niveau 1",
+    "grade_code": "2418",
+    "grade": "Adjoint technique principal 1° classe ",
+    "montant": 419.0
+  },
+  {
+    "code_regime": 62,
+    "regime": "Responsable d'équipe - sujétions niveau 2",
+    "grade_code": "2200",
+    "grade": "Agents de maîtrise",
+    "montant": 414.0
+  },
+  {
+    "code_regime": 62,
+    "regime": "Responsable d'équipe - sujétions niveau 2",
+    "grade_code": "2208",
+    "grade": "Agents de maîtrise principal",
+    "montant": 424.0
+  },
+  {
+    "code_regime": 62,
+    "regime": "Responsable d'équipe - sujétions niveau 2",
+    "grade_code": "2410",
+    "grade": "Adjoint technique",
+    "montant": 401.0
+  },
+  {
+    "code_regime": 62,
+    "regime": "Responsable d'équipe - sujétions niveau 2",
+    "grade_code": "2416",
+    "grade": "Adjoint technique principal 2° classe ",
+    "montant": 414.0
+  },
+  {
+    "code_regime": 62,
+    "regime": "Responsable d'équipe - sujétions niveau 2",
+    "grade_code": "2418",
+    "grade": "Adjoint technique principal 1° classe ",
+    "montant": 424.0
+  },
+  {
+    "code_regime": 63,
+    "regime": "Responsable d'équipe - sujétions niveau 3",
+    "grade_code": "2200",
+    "grade": "Agents de maîtrise",
+    "montant": 419.0
+  },
+  {
+    "code_regime": 63,
+    "regime": "Responsable d'équipe - sujétions niveau 3",
+    "grade_code": "2208",
+    "grade": "Agents de maîtrise principal",
+    "montant": 429.0
+  },
+  {
+    "code_regime": 63,
+    "regime": "Responsable d'équipe - sujétions niveau 3",
+    "grade_code": "2410",
+    "grade": "Adjoint technique",
+    "montant": 406.0
+  },
+  {
+    "code_regime": 63,
+    "regime": "Responsable d'équipe - sujétions niveau 3",
+    "grade_code": "2416",
+    "grade": "Adjoint technique principal 2° classe ",
+    "montant": 419.0
+  },
+  {
+    "code_regime": 63,
+    "regime": "Responsable d'équipe - sujétions niveau 3",
+    "grade_code": "2418",
+    "grade": "Adjoint technique principal 1° classe ",
+    "montant": 429.0
+  },
+  {
+    "code_regime": 64,
+    "regime": "Responsable d'équipe - sujétions niveau 4",
+    "grade_code": "2200",
+    "grade": "Agents de maîtrise",
+    "montant": 429.0
+  },
+  {
+    "code_regime": 64,
+    "regime": "Responsable d'équipe - sujétions niveau 4",
+    "grade_code": "2208",
+    "grade": "Agents de maîtrise principal",
+    "montant": 439.0
+  },
+  {
+    "code_regime": 64,
+    "regime": "Responsable d'équipe - sujétions niveau 4",
+    "grade_code": "2410",
+    "grade": "Adjoint technique",
+    "montant": 416.0
+  },
+  {
+    "code_regime": 64,
+    "regime": "Responsable d'équipe - sujétions niveau 4",
+    "grade_code": "2416",
+    "grade": "Adjoint technique principal 2° classe ",
+    "montant": 429.0
+  },
+  {
+    "code_regime": 64,
+    "regime": "Responsable d'équipe - sujétions niveau 4",
+    "grade_code": "2418",
+    "grade": "Adjoint technique principal 1° classe ",
+    "montant": 439.0
+  },
+  {
+    "code_regime": 65,
+    "regime": "Responsable d'équipe - sujétions niveau 5",
+    "grade_code": "2200",
+    "grade": "Agents de maîtrise",
+    "montant": 434.0
+  },
+  {
+    "code_regime": 65,
+    "regime": "Responsable d'équipe - sujétions niveau 5",
+    "grade_code": "2208",
+    "grade": "Agents de maîtrise principal",
+    "montant": 444.0
+  },
+  {
+    "code_regime": 65,
+    "regime": "Responsable d'équipe - sujétions niveau 5",
+    "grade_code": "2410",
+    "grade": "Adjoint technique",
+    "montant": 421.0
+  },
+  {
+    "code_regime": 65,
+    "regime": "Responsable d'équipe - sujétions niveau 5",
+    "grade_code": "2416",
+    "grade": "Adjoint technique principal 2° classe ",
+    "montant": 434.0
+  },
+  {
+    "code_regime": 65,
+    "regime": "Responsable d'équipe - sujétions niveau 5",
+    "grade_code": "2418",
+    "grade": "Adjoint technique principal 1° classe ",
+    "montant": 444.0
+  },
+  {
+    "code_regime": "07",
+    "regime": "Référent d'équipe",
+    "grade_code": "1054",
+    "grade": "Adjoint administratif",
+    "montant": 347.0
+  },
+  {
+    "code_regime": "07",
+    "regime": "Référent d'équipe",
+    "grade_code": "1057",
+    "grade": "Adjoint administratif Principal 2° classe ",
+    "montant": 381.0
+  },
+  {
+    "code_regime": "07",
+    "regime": "Référent d'équipe",
+    "grade_code": "1058",
+    "grade": "Adjoint administratif Principal 1° classe ",
+    "montant": 384.0
+  },
+  {
+    "code_regime": "07",
+    "regime": "Référent d'équipe",
+    "grade_code": "3808",
+    "grade": "Adjoint patrimoine",
+    "montant": 347.0
+  },
+  {
+    "code_regime": "07",
+    "regime": "Référent d'équipe",
+    "grade_code": "3814",
+    "grade": "Adjoint patrimoine principal 2° classe ",
+    "montant": 381.0
+  },
+  {
+    "code_regime": "07",
+    "regime": "Référent d'équipe",
+    "grade_code": "3816",
+    "grade": "Adjoint patrimoine principal 1° classe ",
+    "montant": 384.0
+  },
+  {
+    "code_regime": "07",
+    "regime": "Référent d'équipe",
+    "grade_code": "4201",
+    "grade": "Opérateur APS",
+    "montant": 347.0
+  },
+  {
+    "code_regime": "07",
+    "regime": "Référent d'équipe",
+    "grade_code": "4204",
+    "grade": "Opérateur APS qualifié",
+    "montant": 381.0
+  },
+  {
+    "code_regime": "07",
+    "regime": "Référent d'équipe",
+    "grade_code": "4208",
+    "grade": "Opérateur APS principal",
+    "montant": 384.0
+  },
+  {
+    "code_regime": "07",
+    "regime": "Référent d'équipe",
+    "grade_code": "5984",
+    "grade": "ATSEM principal 2° classe",
+    "montant": 381.0
+  },
+  {
+    "code_regime": "07",
+    "regime": "Référent d'équipe",
+    "grade_code": "5986",
+    "grade": "ATSEM principal 1° classe",
+    "montant": 384.0
+  },
+  {
+    "code_regime": "07",
+    "regime": "Référent d'équipe",
+    "grade_code": "5993",
+    "grade": "Agent social",
+    "montant": 347.0
+  },
+  {
+    "code_regime": "07",
+    "regime": "Référent d'équipe",
+    "grade_code": "5997",
+    "grade": "Agent social principal 2° classe",
+    "montant": 381.0
+  },
+  {
+    "code_regime": "07",
+    "regime": "Référent d'équipe",
+    "grade_code": "5998",
+    "grade": "Agent social principal 1° classe",
+    "montant": 384.0
+  },
+  {
+    "code_regime": "07",
+    "regime": "Référent d'équipe",
+    "grade_code": "8028",
+    "grade": "Adjoint animation",
+    "montant": 347.0
+  },
+  {
+    "code_regime": "07",
+    "regime": "Référent d'équipe",
+    "grade_code": "8034",
+    "grade": "Adjoint animation principal 2° classe ",
+    "montant": 381.0
+  },
+  {
+    "code_regime": "07",
+    "regime": "Référent d'équipe",
+    "grade_code": "8036",
+    "grade": "Adjoint animation principal 1° classe ",
+    "montant": 384.0
+  },
+  {
+    "code_regime": "07",
+    "regime": "Référent d'équipe",
+    "grade_code": "2200",
+    "grade": "Agents de maîtrise",
+    "montant": 359.0
+  },
+  {
+    "code_regime": "07",
+    "regime": "Référent d'équipe",
+    "grade_code": "2208",
+    "grade": "Agents de maîtrise principal",
+    "montant": 368.0
+  },
+  {
+    "code_regime": "07",
+    "regime": "Référent d'équipe",
+    "grade_code": "2410",
+    "grade": "Adjoint technique",
+    "montant": 346.0
+  },
+  {
+    "code_regime": "07",
+    "regime": "Référent d'équipe",
+    "grade_code": "2416",
+    "grade": "Adjoint technique principal 2° classe ",
+    "montant": 359.0
+  },
+  {
+    "code_regime": "07",
+    "regime": "Référent d'équipe",
+    "grade_code": "2418",
+    "grade": "Adjoint technique principal 1° classe ",
+    "montant": 368.0
+  },
+  {
+    "code_regime": 71,
+    "regime": "Référent d'équipe - sujétions niveau 1",
+    "grade_code": "2200",
+    "grade": "Agents de maîtrise",
+    "montant": 369.0
+  },
+  {
+    "code_regime": 71,
+    "regime": "Référent d'équipe - sujétions niveau 1",
+    "grade_code": "2208",
+    "grade": "Agents de maîtrise principal",
+    "montant": 378.0
+  },
+  {
+    "code_regime": 71,
+    "regime": "Référent d'équipe - sujétions niveau 1",
+    "grade_code": "2410",
+    "grade": "Adjoint technique",
+    "montant": 356.0
+  },
+  {
+    "code_regime": 71,
+    "regime": "Référent d'équipe - sujétions niveau 1",
+    "grade_code": "2416",
+    "grade": "Adjoint technique principal 2° classe ",
+    "montant": 369.0
+  },
+  {
+    "code_regime": 71,
+    "regime": "Référent d'équipe - sujétions niveau 1",
+    "grade_code": "2418",
+    "grade": "Adjoint technique principal 1° classe ",
+    "montant": 378.0
+  },
+  {
+    "code_regime": 72,
+    "regime": "Référent d'équipe - sujétions niveau 2",
+    "grade_code": "2200",
+    "grade": "Agents de maîtrise",
+    "montant": 374.0
+  },
+  {
+    "code_regime": 72,
+    "regime": "Référent d'équipe - sujétions niveau 2",
+    "grade_code": "2208",
+    "grade": "Agents de maîtrise principal",
+    "montant": 383.0
+  },
+  {
+    "code_regime": 72,
+    "regime": "Référent d'équipe - sujétions niveau 2",
+    "grade_code": "2410",
+    "grade": "Adjoint technique",
+    "montant": 361.0
+  },
+  {
+    "code_regime": 72,
+    "regime": "Référent d'équipe - sujétions niveau 2",
+    "grade_code": "2416",
+    "grade": "Adjoint technique principal 2° classe ",
+    "montant": 374.0
+  },
+  {
+    "code_regime": 72,
+    "regime": "Référent d'équipe - sujétions niveau 2",
+    "grade_code": "2418",
+    "grade": "Adjoint technique principal 1° classe ",
+    "montant": 383.0
+  },
+  {
+    "code_regime": 73,
+    "regime": "Référent d'équipe - sujétions niveau 3",
+    "grade_code": "2200",
+    "grade": "Agents de maîtrise",
+    "montant": 379.0
+  },
+  {
+    "code_regime": 73,
+    "regime": "Référent d'équipe - sujétions niveau 3",
+    "grade_code": "2208",
+    "grade": "Agents de maîtrise principal",
+    "montant": 388.0
+  },
+  {
+    "code_regime": 73,
+    "regime": "Référent d'équipe - sujétions niveau 3",
+    "grade_code": "2410",
+    "grade": "Adjoint technique",
+    "montant": 366.0
+  },
+  {
+    "code_regime": 73,
+    "regime": "Référent d'équipe - sujétions niveau 3",
+    "grade_code": "2416",
+    "grade": "Adjoint technique principal 2° classe ",
+    "montant": 379.0
+  },
+  {
+    "code_regime": 73,
+    "regime": "Référent d'équipe - sujétions niveau 3",
+    "grade_code": "2418",
+    "grade": "Adjoint technique principal 1° classe ",
+    "montant": 388.0
+  },
+  {
+    "code_regime": 74,
+    "regime": "Référent d'équipe - sujétions niveau 4",
+    "grade_code": "2200",
+    "grade": "Agents de maîtrise",
+    "montant": 389.0
+  },
+  {
+    "code_regime": 74,
+    "regime": "Référent d'équipe - sujétions niveau 4",
+    "grade_code": "2208",
+    "grade": "Agents de maîtrise principal",
+    "montant": 398.0
+  },
+  {
+    "code_regime": 74,
+    "regime": "Référent d'équipe - sujétions niveau 4",
+    "grade_code": "2410",
+    "grade": "Adjoint technique",
+    "montant": 376.0
+  },
+  {
+    "code_regime": 74,
+    "regime": "Référent d'équipe - sujétions niveau 4",
+    "grade_code": "2416",
+    "grade": "Adjoint technique principal 2° classe ",
+    "montant": 389.0
+  },
+  {
+    "code_regime": 74,
+    "regime": "Référent d'équipe - sujétions niveau 4",
+    "grade_code": "2418",
+    "grade": "Adjoint technique principal 1° classe ",
+    "montant": 398.0
+  },
+  {
+    "code_regime": 75,
+    "regime": "Référent d'équipe - sujétions niveau 5",
+    "grade_code": "2200",
+    "grade": "Agents de maîtrise",
+    "montant": 394.0
+  },
+  {
+    "code_regime": 75,
+    "regime": "Référent d'équipe - sujétions niveau 5",
+    "grade_code": "2208",
+    "grade": "Agents de maîtrise principal",
+    "montant": 403.0
+  },
+  {
+    "code_regime": 75,
+    "regime": "Référent d'équipe - sujétions niveau 5",
+    "grade_code": "2410",
+    "grade": "Adjoint technique",
+    "montant": 381.0
+  },
+  {
+    "code_regime": 75,
+    "regime": "Référent d'équipe - sujétions niveau 5",
+    "grade_code": "2416",
+    "grade": "Adjoint technique principal 2° classe ",
+    "montant": 394.0
+  },
+  {
+    "code_regime": 75,
+    "regime": "Référent d'équipe - sujétions niveau 5",
+    "grade_code": "2418",
+    "grade": "Adjoint technique principal 1° classe ",
+    "montant": 403.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "1054",
+    "grade": "Adjoint administratif",
+    "montant": 445.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "1057",
+    "grade": "Adjoint administratif Principal 2° classe ",
+    "montant": 480.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "1058",
+    "grade": "Adjoint administratif Principal 1° classe ",
+    "montant": 485.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "3808",
+    "grade": "Adjoint patrimoine",
+    "montant": 445.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "3814",
+    "grade": "Adjoint patrimoine principal 2° classe ",
+    "montant": 480.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "3816",
+    "grade": "Adjoint patrimoine principal 1° classe ",
+    "montant": 485.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "4201",
+    "grade": "Opérateur APS",
+    "montant": 445.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "4204",
+    "grade": "Opérateur APS qualifié",
+    "montant": 480.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "4208",
+    "grade": "Opérateur APS principal",
+    "montant": 485.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "5984",
+    "grade": "ATSEM principal 2° classe",
+    "montant": 480.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "5986",
+    "grade": "ATSEM principal 1° classe",
+    "montant": 485.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "5993",
+    "grade": "Agent social",
+    "montant": 445.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "5997",
+    "grade": "Agent social principal 2° classe",
+    "montant": 480.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "5998",
+    "grade": "Agent social principal 1° classe",
+    "montant": 485.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "8028",
+    "grade": "Adjoint animation",
+    "montant": 445.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "8034",
+    "grade": "Adjoint animation principal 2° classe ",
+    "montant": 480.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "8036",
+    "grade": "Adjoint animation principal 1° classe ",
+    "montant": 485.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "2200",
+    "grade": "Agents de maîtrise",
+    "montant": 460.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "2208",
+    "grade": "Agents de maîtrise principal",
+    "montant": 470.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "2410",
+    "grade": "Adjoint technique",
+    "montant": 440.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "2416",
+    "grade": "Adjoint technique principal 2° classe ",
+    "montant": 460.0
+  },
+  {
+    "code_regime": 20,
+    "regime": "Fonctions de catégorie supérieure",
+    "grade_code": "2418",
+    "grade": "Adjoint technique principal 1° classe ",
+    "montant": 470.0
+  },
+  {
+    "code_regime": 28,
+    "regime": "Fonctions de catégorie supérieure expertise informatique",
+    "grade_code": "1054",
+    "grade": "Adjoint administratif",
+    "montant": 795.0
+  },
+  {
+    "code_regime": 28,
+    "regime": "Fonctions de catégorie supérieure expertise informatique",
+    "grade_code": "1057",
+    "grade": "Adjoint administratif Principal 2° classe ",
+    "montant": 830.0
+  },
+  {
+    "code_regime": 28,
+    "regime": "Fonctions de catégorie supérieure expertise informatique",
+    "grade_code": "1058",
+    "grade": "Adjoint administratif Principal 1° classe ",
+    "montant": 835.0
+  },
+  {
+    "code_regime": 28,
+    "regime": "Fonctions de catégorie supérieure expertise informatique",
+    "grade_code": "2200",
+    "grade": "Agents de maîtrise",
+    "montant": 810.0
+  },
+  {
+    "code_regime": 28,
+    "regime": "Fonctions de catégorie supérieure expertise informatique",
+    "grade_code": "2208",
+    "grade": "Agents de maîtrise principal",
+    "montant": 825.0
+  },
+  {
+    "code_regime": 28,
+    "regime": "Fonctions de catégorie supérieure expertise informatique",
+    "grade_code": "2410",
+    "grade": "Adjoint technique",
+    "montant": 790.0
+  },
+  {
+    "code_regime": 28,
+    "regime": "Fonctions de catégorie supérieure expertise informatique",
+    "grade_code": "2416",
+    "grade": "Adjoint technique principal 2° classe ",
+    "montant": 810.0
+  },
+  {
+    "code_regime": 28,
+    "regime": "Fonctions de catégorie supérieure expertise informatique",
+    "grade_code": "2418",
+    "grade": "Adjoint technique principal 1° classe ",
+    "montant": 820.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "1054",
+    "grade": "Adjoint administratif",
+    "montant": 307.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "1057",
+    "grade": "Adjoint administratif Principal 2° classe ",
+    "montant": 341.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "1058",
+    "grade": "Adjoint administratif Principal 1° classe ",
+    "montant": 344.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "3808",
+    "grade": "Adjoint patrimoine",
+    "montant": 307.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "3814",
+    "grade": "Adjoint patrimoine principal 2° classe ",
+    "montant": 341.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "3816",
+    "grade": "Adjoint patrimoine principal 1° classe ",
+    "montant": 344.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "4201",
+    "grade": "Opérateur APS",
+    "montant": 307.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "4204",
+    "grade": "Opérateur APS qualifié",
+    "montant": 341.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "4208",
+    "grade": "Opérateur APS principal",
+    "montant": 344.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "5984",
+    "grade": "ATSEM principal 2° classe",
+    "montant": 341.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "5986",
+    "grade": "ATSEM principal 1° classe",
+    "montant": 344.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "5993",
+    "grade": "Agent social",
+    "montant": 307.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "5997",
+    "grade": "Agent social principal 2° classe",
+    "montant": 341.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "5998",
+    "grade": "Agent social principal 1° classe",
+    "montant": 344.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": 5608,
+    "grade": "Aux. puér Pal 2Cl (anc)",
+    "montant": 341.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": 5610,
+    "grade": "Aux. puér Pal 1Cl (anc)",
+    "montant": 344.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": 5658,
+    "grade": "Auxiliaire soins Pal 2Cl",
+    "montant": 341.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": 5660,
+    "grade": "Auxiliaire soins Pal 1Cl",
+    "montant": 344.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "8028",
+    "grade": "Adjoint animation",
+    "montant": 307.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "8034",
+    "grade": "Adjoint animation principal 2° classe ",
+    "montant": 341.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "8036",
+    "grade": "Adjoint animation principal 1° classe ",
+    "montant": 344.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "2200",
+    "grade": "Agents de maîtrise",
+    "montant": 319.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "2208",
+    "grade": "Agents de maîtrise principal",
+    "montant": 326.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "2410",
+    "grade": "Adjoint technique",
+    "montant": 306.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "2416",
+    "grade": "Adjoint technique principal 2° classe ",
+    "montant": 319.0
+  },
+  {
+    "code_regime": "-",
+    "regime": "Non encadrant.e",
+    "grade_code": "2418",
+    "grade": "Adjoint technique principal 1° classe ",
+    "montant": 326.0
+  },
+  {
+    "code_regime": 22,
+    "regime": "Sujétion exhumation",
+    "grade_code": "2200",
+    "grade": "Agents de maîtrise",
+    "montant": 519.0
+  },
+  {
+    "code_regime": 22,
+    "regime": "Sujétion exhumation",
+    "grade_code": "2208",
+    "grade": "Agents de maîtrise principal",
+    "montant": 526.0
+  },
+  {
+    "code_regime": 22,
+    "regime": "Sujétion exhumation",
+    "grade_code": "2410",
+    "grade": "Adjoint technique",
+    "montant": 506.0
+  },
+  {
+    "code_regime": 22,
+    "regime": "Sujétion exhumation",
+    "grade_code": "2416",
+    "grade": "Adjoint technique principal 2° classe ",
+    "montant": 519.0
+  },
+  {
+    "code_regime": 22,
+    "regime": "Sujétion exhumation",
+    "grade_code": "2418",
+    "grade": "Adjoint technique principal 1° classe ",
+    "montant": 526.0
+  },
+  {
+    "code_regime": 23,
+    "regime": "Sujétions niveau 1",
+    "grade_code": "2200",
+    "grade": "Agents de maîtrise",
+    "montant": 329.0
+  },
+  {
+    "code_regime": 23,
+    "regime": "Sujétions niveau 1",
+    "grade_code": "2208",
+    "grade": "Agents de maîtrise principal",
+    "montant": 336.0
+  },
+  {
+    "code_regime": 23,
+    "regime": "Sujétions niveau 1",
+    "grade_code": "2410",
+    "grade": "Adjoint technique",
+    "montant": 316.0
+  },
+  {
+    "code_regime": 23,
+    "regime": "Sujétions niveau 1",
+    "grade_code": "2416",
+    "grade": "Adjoint technique principal 2° classe ",
+    "montant": 329.0
+  },
+  {
+    "code_regime": 23,
+    "regime": "Sujétions niveau 1",
+    "grade_code": "2418",
+    "grade": "Adjoint technique principal 1° classe ",
+    "montant": 336.0
+  },
+  {
+    "code_regime": 24,
+    "regime": "Sujétions niveau 2",
+    "grade_code": "2200",
+    "grade": "Agents de maîtrise",
+    "montant": 334.0
+  },
+  {
+    "code_regime": 24,
+    "regime": "Sujétions niveau 2",
+    "grade_code": "2208",
+    "grade": "Agents de maîtrise principal",
+    "montant": 341.0
+  },
+  {
+    "code_regime": 24,
+    "regime": "Sujétions niveau 2",
+    "grade_code": 8028,
+    "grade": "Adjoint animation",
+    "montant": 321.0
+  },
+  {
+    "code_regime": 24,
+    "regime": "Sujétions niveau 2",
+    "grade_code": "2410",
+    "grade": "Adjoint technique",
+    "montant": 321.0
+  },
+  {
+    "code_regime": 24,
+    "regime": "Sujétions niveau 2",
+    "grade_code": "2416",
+    "grade": "Adjoint technique principal 2° classe ",
+    "montant": 334.0
+  },
+  {
+    "code_regime": 24,
+    "regime": "Sujétions niveau 2",
+    "grade_code": "2418",
+    "grade": "Adjoint technique principal 1° classe ",
+    "montant": 341.0
+  },
+  {
+    "code_regime": 25,
+    "regime": "Sujétions niveau 3",
+    "grade_code": "2200",
+    "grade": "Agents de maîtrise",
+    "montant": 339.0
+  },
+  {
+    "code_regime": 25,
+    "regime": "Sujétions niveau 3",
+    "grade_code": "2208",
+    "grade": "Agents de maîtrise principal",
+    "montant": 346.0
+  },
+  {
+    "code_regime": 25,
+    "regime": "Sujétions niveau 3",
+    "grade_code": "2410",
+    "grade": "Adjoint technique",
+    "montant": 326.0
+  },
+  {
+    "code_regime": 25,
+    "regime": "Sujétions niveau 3",
+    "grade_code": "2416",
+    "grade": "Adjoint technique principal 2° classe ",
+    "montant": 339.0
+  },
+  {
+    "code_regime": 25,
+    "regime": "Sujétions niveau 3",
+    "grade_code": "2418",
+    "grade": "Adjoint technique principal 1° classe ",
+    "montant": 346.0
+  },
+  {
+    "code_regime": 26,
+    "regime": "Sujétions niveau 4",
+    "grade_code": "2200",
+    "grade": "Agents de maîtrise",
+    "montant": 349.0
+  },
+  {
+    "code_regime": 26,
+    "regime": "Sujétions niveau 4",
+    "grade_code": "2208",
+    "grade": "Agents de maîtrise principal",
+    "montant": 356.0
+  },
+  {
+    "code_regime": 26,
+    "regime": "Sujétions niveau 4",
+    "grade_code": "2410",
+    "grade": "Adjoint technique",
+    "montant": 336.0
+  },
+  {
+    "code_regime": 26,
+    "regime": "Sujétions niveau 4",
+    "grade_code": "2416",
+    "grade": "Adjoint technique principal 2° classe ",
+    "montant": 349.0
+  },
+  {
+    "code_regime": 26,
+    "regime": "Sujétions niveau 4",
+    "grade_code": "2418",
+    "grade": "Adjoint technique principal 1° classe ",
+    "montant": 356.0
+  },
+  {
+    "code_regime": 27,
+    "regime": "Sujétions niveau 5",
+    "grade_code": "2200",
+    "grade": "Agents de maîtrise",
+    "montant": 354.0
+  },
+  {
+    "code_regime": 27,
+    "regime": "Sujétions niveau 5",
+    "grade_code": "2208",
+    "grade": "Agents de maîtrise principal",
+    "montant": 361.0
+  },
+  {
+    "code_regime": 27,
+    "regime": "Sujétions niveau 5",
+    "grade_code": "2410",
+    "grade": "Adjoint technique",
+    "montant": 341.0
+  },
+  {
+    "code_regime": 27,
+    "regime": "Sujétions niveau 5",
+    "grade_code": "2416",
+    "grade": "Adjoint technique principal 2° classe ",
+    "montant": 354.0
+  },
+  {
+    "code_regime": 27,
+    "regime": "Sujétions niveau 5",
+    "grade_code": "2418",
+    "grade": "Adjoint technique principal 1° classe ",
+    "montant": 361.0
+  },
+  {
+    "code_regime": "08",
+    "regime": "Tuteur de mobilité",
+    "grade_code": "1054",
+    "grade": "Adjoint administratif",
+    "montant": 347.0
+  },
+  {
+    "code_regime": "08",
+    "regime": "Tuteur de mobilité",
+    "grade_code": "1057",
+    "grade": "Adjoint administratif Principal 2° classe ",
+    "montant": 381.0
+  },
+  {
+    "code_regime": "08",
+    "regime": "Tuteur de mobilité",
+    "grade_code": "1058",
+    "grade": "Adjoint administratif Principal 1° classe ",
+    "montant": 384.0
+  },
+  {
+    "code_regime": "08",
+    "regime": "Tuteur de mobilité",
+    "grade_code": "3808",
+    "grade": "Adjoint patrimoine",
+    "montant": 347.0
+  },
+  {
+    "code_regime": "08",
+    "regime": "Tuteur de mobilité",
+    "grade_code": "3814",
+    "grade": "Adjoint patrimoine principal 2° classe ",
+    "montant": 381.0
+  },
+  {
+    "code_regime": "08",
+    "regime": "Tuteur de mobilité",
+    "grade_code": "3816",
+    "grade": "Adjoint patrimoine principal 1° classe ",
+    "montant": 384.0
+  },
+  {
+    "code_regime": "08",
+    "regime": "Tuteur de mobilité",
+    "grade_code": "4201",
+    "grade": "Opérateur APS",
+    "montant": 347.0
+  },
+  {
+    "code_regime": "08",
+    "regime": "Tuteur de mobilité",
+    "grade_code": "4204",
+    "grade": "Opérateur APS qualifié",
+    "montant": 381.0
+  },
+  {
+    "code_regime": "08",
+    "regime": "Tuteur de mobilité",
+    "grade_code": "4208",
+    "grade": "Opérateur APS principal",
+    "montant": 384.0
+  },
+  {
+    "code_regime": "08",
+    "regime": "Tuteur de mobilité",
+    "grade_code": "5984",
+    "grade": "ATSEM principal 2° classe",
+    "montant": 381.0
+  },
+  {
+    "code_regime": "08",
+    "regime": "Tuteur de mobilité",
+    "grade_code": "5986",
+    "grade": "ATSEM principal 1° classe",
+    "montant": 384.0
+  },
+  {
+    "code_regime": "08",
+    "regime": "Tuteur de mobilité",
+    "grade_code": "5993",
+    "grade": "Agent social",
+    "montant": 347.0
+  },
+  {
+    "code_regime": "08",
+    "regime": "Tuteur de mobilité",
+    "grade_code": "5997",
+    "grade": "Agent social principal 2° classe",
+    "montant": 381.0
+  },
+  {
+    "code_regime": "08",
+    "regime": "Tuteur de mobilité",
+    "grade_code": "5998",
+    "grade": "Agent social principal 1° classe",
+    "montant": 384.0
+  },
+  {
+    "code_regime": "08",
+    "regime": "Tuteur de mobilité",
+    "grade_code": "8028",
+    "grade": "Adjoint animation",
+    "montant": 347.0
+  },
+  {
+    "code_regime": "08",
+    "regime": "Tuteur de mobilité",
+    "grade_code": "8034",
+    "grade": "Adjoint animation principal 2° classe ",
+    "montant": 381.0
+  },
+  {
+    "code_regime": "08",
+    "regime": "Tuteur de mobilité",
+    "grade_code": "8036",
+    "grade": "Adjoint animation principal 1° classe ",
+    "montant": 384.0
+  },
+  {
+    "code_regime": "08",
+    "regime": "Tuteur de mobilité",
+    "grade_code": "2200",
+    "grade": "Agents de maîtrise",
+    "montant": 359.0
+  },
+  {
+    "code_regime": "08",
+    "regime": "Tuteur de mobilité",
+    "grade_code": "2208",
+    "grade": "Agents de maîtrise principal",
+    "montant": 366.0
+  },
+  {
+    "code_regime": "08",
+    "regime": "Tuteur de mobilité",
+    "grade_code": "2410",
+    "grade": "Adjoint technique",
+    "montant": 346.0
+  },
+  {
+    "code_regime": "08",
+    "regime": "Tuteur de mobilité",
+    "grade_code": "2416",
+    "grade": "Adjoint technique principal 2° classe ",
+    "montant": 359.0
+  },
+  {
+    "code_regime": "08",
+    "regime": "Tuteur de mobilité",
+    "grade_code": "2418",
+    "grade": "Adjoint technique principal 1° classe ",
+    "montant": 366.0
+  },
+  {
+    "code_regime": "09",
+    "regime": "Assistant de prévention",
+    "grade_code": "1054",
+    "grade": "Adjoint administratif",
+    "montant": 347.0
+  },
+  {
+    "code_regime": "09",
+    "regime": "Assistant de prévention",
+    "grade_code": "1057",
+    "grade": "Adjoint administratif Principal 2° classe ",
+    "montant": 381.0
+  },
+  {
+    "code_regime": "09",
+    "regime": "Assistant de prévention",
+    "grade_code": "1058",
+    "grade": "Adjoint administratif Principal 1° classe ",
+    "montant": 384.0
+  },
+  {
+    "code_regime": "09",
+    "regime": "Assistant de prévention",
+    "grade_code": "3808",
+    "grade": "Adjoint patrimoine",
+    "montant": 347.0
+  },
+  {
+    "code_regime": "09",
+    "regime": "Assistant de prévention",
+    "grade_code": "3814",
+    "grade": "Adjoint patrimoine principal 2° classe ",
+    "montant": 381.0
+  },
+  {
+    "code_regime": "09",
+    "regime": "Assistant de prévention",
+    "grade_code": "3816",
+    "grade": "Adjoint patrimoine principal 1° classe ",
+    "montant": 384.0
+  },
+  {
+    "code_regime": "09",
+    "regime": "Assistant de prévention",
+    "grade_code": "4201",
+    "grade": "Opérateur APS",
+    "montant": 347.0
+  },
+  {
+    "code_regime": "09",
+    "regime": "Assistant de prévention",
+    "grade_code": "4204",
+    "grade": "Opérateur APS qualifié",
+    "montant": 381.0
+  },
+  {
+    "code_regime": "09",
+    "regime": "Assistant de prévention",
+    "grade_code": "4208",
+    "grade": "Opérateur APS principal",
+    "montant": 384.0
+  },
+  {
+    "code_regime": "09",
+    "regime": "Assistant de prévention",
+    "grade_code": "5984",
+    "grade": "ATSEM principal 2° classe",
+    "montant": 381.0
+  },
+  {
+    "code_regime": "09",
+    "regime": "Assistant de prévention",
+    "grade_code": "5986",
+    "grade": "ATSEM principal 1° classe",
+    "montant": 384.0
+  },
+  {
+    "code_regime": "09",
+    "regime": "Assistant de prévention",
+    "grade_code": "5993",
+    "grade": "Agent social",
+    "montant": 347.0
+  },
+  {
+    "code_regime": "09",
+    "regime": "Assistant de prévention",
+    "grade_code": "5997",
+    "grade": "Agent social principal 2° classe",
+    "montant": 381.0
+  },
+  {
+    "code_regime": "09",
+    "regime": "Assistant de prévention",
+    "grade_code": "5998",
+    "grade": "Agent social principal 1° classe",
+    "montant": 384.0
+  },
+  {
+    "code_regime": "09",
+    "regime": "Assistant de prévention",
+    "grade_code": "8028",
+    "grade": "Adjoint animation",
+    "montant": 347.0
+  },
+  {
+    "code_regime": "09",
+    "regime": "Assistant de prévention",
+    "grade_code": "8034",
+    "grade": "Adjoint animation principal 2° classe ",
+    "montant": 381.0
+  },
+  {
+    "code_regime": "09",
+    "regime": "Assistant de prévention",
+    "grade_code": "8036",
+    "grade": "Adjoint animation principal 1° classe ",
+    "montant": 384.0
+  },
+  {
+    "code_regime": "09",
+    "regime": "Assistant de prévention",
+    "grade_code": "2200",
+    "grade": "Agents de maîtrise",
+    "montant": 359.0
+  },
+  {
+    "code_regime": "09",
+    "regime": "Assistant de prévention",
+    "grade_code": "2208",
+    "grade": "Agents de maîtrise principal",
+    "montant": 366.0
+  },
+  {
+    "code_regime": "09",
+    "regime": "Assistant de prévention",
+    "grade_code": "2410",
+    "grade": "Adjoint technique",
+    "montant": 346.0
+  },
+  {
+    "code_regime": "09",
+    "regime": "Assistant de prévention",
+    "grade_code": "2416",
+    "grade": "Adjoint technique principal 2° classe ",
+    "montant": 359.0
+  },
+  {
+    "code_regime": "09",
+    "regime": "Assistant de prévention",
+    "grade_code": "2418",
+    "grade": "Adjoint technique principal 1° classe ",
+    "montant": 366.0
+  }
+]
