@@ -39,3 +39,8 @@ stitch_*.zip
 # Utilisé uniquement hors ligne (extract.py) pour régénérer les données de seed.
 # Les données utilisées au runtime sont dans backend/app/seed_data/.
 *.xlsm
+
+# ---- Package de déploiement serveur (artefacts générés, non versionnés) ----
+simulateur-paie-serveur.zip
+deploy/*.exe
+deploy/backend/
