@@ -34,3 +34,8 @@ Thumbs.db
 
 # ---- Fichiers de conception (hors application) ----
 stitch_*.zip
+
+# ---- Fichier Excel source ----
+# Utilisé uniquement hors ligne (extract.py) pour régénérer les données de seed.
+# Les données utilisées au runtime sont dans backend/app/seed_data/.
+*.xlsm

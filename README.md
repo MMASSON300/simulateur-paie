@@ -219,11 +219,14 @@ l'identique et validées par les tests.
 ## Mise à jour des données de référence
 
 Les données de référence proviennent de fichiers JSON (`backend/app/seed_data/`) extraits
-automatiquement du classeur Excel. Pour les régénérer après modification du `.xlsm` :
+automatiquement du classeur Excel. **Le fichier `.xlsm` n'est pas nécessaire au fonctionnement
+du site** (seules les données JSON de seed le sont) et n'est pas versionné dans ce dépôt.
+
+Pour régénérer les données après modification du classeur Excel (fichier à fournir localement) :
 
 ```powershell
 cd backend
-python -m app.extract "..\Simulateur de salaire 2026.10.xlsm"
+python -m app.extract "chemin\vers\Simulateur de salaire 2026.10.xlsm"
 python -m app.seed --force
 ```
 
