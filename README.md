@@ -14,7 +14,8 @@ et les cotisations salariales (CNRACL, RAFP, IRCANTEC, SS vieillesse, CSG/RDS), 
 - [Fonctionnalités](#fonctionnalités)
 - [Architecture](#architecture)
 - [Prérequis](#prérequis)
-- [Déploiement avec Docker (recommandé)](#déploiement-avec-docker-recommandé)
+- [Déploiement sur serveur Windows (hors-ligne)](#déploiement-sur-serveur-windows-hors-ligne)
+- [Déploiement avec Docker (local)](#déploiement-avec-docker-local)
 - [Installation locale (développement)](#installation-locale-développement)
 - [Configuration](#configuration)
 - [Interface d'administration](#interface-dadministration)
@@ -35,6 +36,9 @@ et les cotisations salariales (CNRACL, RAFP, IRCANTEC, SS vieillesse, CSG/RDS), 
 - **Administration protégée par mot de passe** : édition des grilles indiciaires, régimes IFSE,
   supplément familial, constantes et paramètres de temps partiel, avec filtres et recherche.
 - **Déploiement conteneurisé** : une seule image Docker contenant l'application complète.
+- **Package hors-ligne pour serveur** : une Release GitHub embarque tout le nécessaire
+  (installateur Python, paquets, frontend compilé) pour installer sur un serveur sans Internet.
+- **Frontend autonome** : polices et icônes embarquées (aucune dépendance à Google Fonts).
 
 ## Architecture
 
@@ -51,8 +55,14 @@ Structure du dépôt :
 ├── Dockerfile               # image unique (backend + frontend compilé)
 ├── docker-compose.yml       # déploiement simplifié
 ├── docker-entrypoint.sh     # init base + lancement
-├── .env                     # variables docker-compose (mot de passe, port)
+├── demarrer.bat             # lanceur local (Docker, sans droits admin)
+├── .env.example             # modèle de variables (mot de passe, port)
 ├── .dockerignore
+├── deploy/                  # scripts de déploiement serveur hors-ligne
+│   ├── installer.bat        # installe les paquets + initialise la base
+│   ├── demarrer-serveur.bat # lance l'application (port 8080)
+│   ├── installer-service.bat# démarrage auto au reboot + pare-feu
+│   └── DEPLOIEMENT.md       # guide d'installation serveur
 ├── backend/
 │   ├── app/
 │   │   ├── main.py          # point d'entrée FastAPI
@@ -69,17 +79,43 @@ Structure du dépôt :
 │   │   └── seed_data/       # JSON extraits du classeur Excel
 │   ├── tests/test_engine.py # tests de validation du moteur
 │   ├── requirements.txt
-│   └── .env                 # mot de passe admin (dev local)
+│   └── .env.example         # mot de passe admin (modèle)
 └── frontend/
     └── src/                 # application React
 ```
 
 ## Prérequis
 
-- **Docker** (recommandé) — aucune autre installation requise, ou
-- **Python 3.12+** et **Node.js 20+** pour le développement local.
+Selon le mode d'utilisation :
 
-## Déploiement avec Docker (recommandé)
+- **Serveur Windows hors-ligne** : aucun prérequis — le package de la Release GitHub fournit
+  l'installateur Python, les paquets et le frontend compilé.
+- **Local avec Docker** : Docker Desktop.
+- **Développement local** : Python 3.12+ et Node.js 20+.
+
+## Déploiement sur serveur Windows (hors-ligne)
+
+Pour une mise en production sur un serveur Windows **sans accès Internet** (ex. `srvadmin3`),
+utilisez la **Release GitHub** :
+
+1. Depuis la page [Releases](https://github.com/MMASSON300/simulateur-paie/releases),
+   téléchargez **`simulateur-paie-serveur.zip`** (package complet et autonome).
+2. Copiez le zip sur le serveur puis extrayez-le.
+3. Installez Python (fourni : `python-3.12.8-amd64.exe`, cochez « Add Python to PATH » et
+   « Install for all users »).
+4. Double-cliquez sur **`installer.bat`** (une fois) puis **`installer-service.bat`**
+   (démarrage automatique au reboot + ouverture du pare-feu).
+5. Les postes accèdent à **http://srvadmin3:8080** (ou `http://IP-du-serveur:8080`).
+
+Le package contient tout le nécessaire : installateur Python, paquets hors-ligne
+(`backend/wheels/`), frontend compilé (`backend/static/`) et un guide détaillé
+(`DEPLOIEMENT.md`).
+
+> Le code source vit dans ce dépôt (branche `main`) ; l'artefact déployable est publié dans
+> les Releases. Pour publier une nouvelle version, régénérez le package (voir `deploy/`) puis
+> créez une nouvelle Release.
+
+## Déploiement avec Docker (local)
 
 L'image contient à la fois le backend et le frontend compilé. Un seul conteneur suffit.
 
