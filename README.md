@@ -85,12 +85,10 @@ L'image contient à la fois le backend et le frontend compilé. Un seul conteneu
 
 ### Lanceur Windows (double-clic)
 
-Sous Windows, double-cliquez sur **`demarrer.bat`** : il ajoute automatiquement le nom
-`simulateur-paie.local` au fichier `hosts` (droits administrateur demandés), démarre
-l'application via Docker puis ouvre le navigateur sur **http://simulateur-paie.local/**.
+Sous Windows, double-cliquez sur **`demarrer.bat`** : il démarre l'application via Docker
+(lance Docker Desktop si nécessaire) puis ouvre le navigateur sur **http://localhost/**.
 
-Ce nom d'hôte est plus lisible que `localhost` et peut être modifié en tête du script
-(`APP_HOST` et `APP_PORT`).
+Aucun droit administrateur requis.
 
 ### 1. Configurer le mot de passe
 
@@ -107,12 +105,7 @@ PORT=80
 docker compose up -d --build
 ```
 
-L'application est alors accessible sur **http://localhost/** (port 80), ou sur
-**http://simulateur-paie.local/** après ajout de l'entrée dans le fichier `hosts` :
-
-```
-127.0.0.1    simulateur-paie.local
-```
+L'application est alors accessible sur **http://localhost/** (port 80).
 
 ### 3. Arrêter / mettre à jour
 

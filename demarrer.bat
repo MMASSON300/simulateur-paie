@@ -2,39 +2,18 @@
 setlocal enabledelayedexpansion
 
 rem ---------------------------------------------------------------------------
-rem  Lanceur du simulateur de salaire
-rem  - ajoute le nom http://simulateur-paie.local au fichier hosts
+rem  Lanceur du simulateur de salaire (Windows)
 rem  - demarre l'application via Docker
-rem  - ouvre le navigateur
+rem  - ouvre le navigateur sur http://localhost
 rem ---------------------------------------------------------------------------
 
-set "APP_HOST=simulateur-paie.local"
-set "APP_PORT=80"
-set "APP_URL=http://%APP_HOST%"
+set "APP_URL=http://localhost"
 
 rem Se placer dans le repertoire du script
 cd /d "%~dp0"
 
-rem --- 1. Droits administrateur (necessaires pour modifier le fichier hosts) ---
-net session >nul 2>&1
-if errorlevel 1 (
-    echo [1/4] Elevation des privileges requise pour le fichier hosts...
-    powershell -NoProfile -Command "Start-Process -FilePath '%~f0' -Verb RunAs"
-    exit /b 0
-)
-
-rem --- 2. Ajout de l'entree dans le fichier hosts ---
-set "HOSTS=%SystemRoot%\System32\drivers\etc\hosts"
-findstr /I /C:"%APP_HOST%" "%HOSTS%" >nul 2>&1
-if errorlevel 1 (
-    echo [2/4] Ajout de %APP_HOST% au fichier hosts...
-    >> "%HOSTS%" echo 127.0.0.1    %APP_HOST%
-) else (
-    echo [2/4] Entree hosts deja presente pour %APP_HOST%.
-)
-
-rem --- 3. Demarrage de l'application (Docker) ---
-echo [3/4] Demarrage de l'application (Docker)...
+rem --- 1. Demarrage de l'application (Docker) ---
+echo [1/2] Demarrage de l'application (Docker)...
 docker info >nul 2>&1
 if errorlevel 1 (
     echo       Docker non lance, tentative de lancement de Docker Desktop...
@@ -62,8 +41,8 @@ if errorlevel 1 (
     exit /b 1
 )
 
-rem --- 4. Ouverture du navigateur ---
-echo [4/4] Ouverture de %APP_URL%
+rem --- 2. Ouverture du navigateur ---
+echo [2/2] Ouverture de %APP_URL%
 start "" "%APP_URL%"
 
 echo.
