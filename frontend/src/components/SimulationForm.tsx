@@ -22,7 +22,7 @@ interface FormState {
 }
 
 const INITIAL: FormState = {
-  statut: 'Non titulaire',
+  statut: 'Titulaire',
   cdi: false,
   duree_hebdo: '35',
   temps_partiel: '',
@@ -180,6 +180,34 @@ export default function SimulationForm({ options }: Props) {
   const grades = form.cadre ? options.grades_par_cadre[form.cadre] ?? [] : []
   const showCsg = form.statut === 'Titulaire' || (form.statut === 'Non titulaire' && form.cdi)
 
+  const paramsList: [string, string][] = [
+    ['Statut', form.statut],
+    ['Durée hebdomadaire de base', form.duree_hebdo ? `${form.duree_hebdo} h` : ''],
+    [
+      'Temps partiel',
+      form.temps_partiel ? `${Math.round(Number(form.temps_partiel) * 100)} %` : 'Temps plein',
+    ],
+    ['Filière', form.filiere],
+    ["Cadre d'emploi", form.cadre],
+    ['Grade', form.grade],
+    ['Échelon', form.echelon],
+    ['NBI', form.nbi ? `${form.nbi} points` : ''],
+    ["Nombre d'enfants", form.enfants],
+    ['Régime indemnitaire (IFSE)', form.regime_indem],
+    ['Montant IFSE forcé', form.montant_force ? `${form.montant_force} €` : ''],
+    ...(showCsg
+      ? ([
+          [
+            'Indemnité compensatrice CSG',
+            form.indemnite_csg ? `${form.indemnite_csg} €` : 'Automatique',
+          ],
+        ] as [string, string][])
+      : []),
+    ['Prime grand âge', form.prime_grand_age ? 'Oui' : 'Non'],
+    ['Complément CTI (Ségur)', form.cti ? 'Oui' : 'Non'],
+    ['Prime annuelle lissée', form.prime_annuelle ? 'Oui' : 'Non'],
+  ]
+
   const reset = () => {
     setForm(INITIAL)
     setToast('Paramètres réinitialisés.')
@@ -188,7 +216,7 @@ export default function SimulationForm({ options }: Props) {
   const copy = () => {
     if (!result) return
     const text = [
-      'Simulation de salaire — Fonction publique territoriale',
+      'Simulation de salaire — Mairie d\'Ivry-sur-Seine',
       `Statut : ${form.statut}${form.cdi ? ' (CDI)' : ''}`,
       `Grade : ${form.grade || '—'} (échelon ${form.echelon})`,
       `Indice majoré : ${result.im}`,
@@ -212,7 +240,7 @@ export default function SimulationForm({ options }: Props) {
   return (
     <div className="grid">
       {/* Colonne gauche — Paramètres */}
-      <div className="col">
+      <div className="col col-form">
         <div className="card">
           <div className="card-pad">
             <div className="card-head">
@@ -252,14 +280,23 @@ export default function SimulationForm({ options }: Props) {
                     onChange={(e) => set('cdi', e.target.checked)}
                   />
                   <span>
-                    <span className="check-label">CDI</span>
-                    <span className="check-sub">Contrat à durée indéterminée</span>
+                    <span className="check-label">CDI</span>{' '}
+                    <span className="check-sub">(à cocher si Indemnité Compensatrice CSG)</span>
                   </span>
                 </label>
               )}
 
               <div className="field">
-                <label>Temps de travail / quotité</label>
+                <label>Durée hebdomadaire de base de l'emploi</label>
+                <input
+                  type="number"
+                  value={form.duree_hebdo}
+                  onChange={(e) => set('duree_hebdo', e.target.value)}
+                />
+              </div>
+
+              <div className="field">
+                <label>Si temps partiel</label>
                 <div className="segmented cols-3">
                   {options.temps_partiel.map((q) => (
                     <button
@@ -273,22 +310,12 @@ export default function SimulationForm({ options }: Props) {
                     </button>
                   ))}
                 </div>
-                <span className="hint">Aucun = temps complet</span>
+                <span className="hint">Aucun = temps plein</span>
               </div>
 
-              <div className="row">
-                <div className="field">
-                  <label>Durée hebdo. (h)</label>
-                  <input
-                    type="number"
-                    value={form.duree_hebdo}
-                    onChange={(e) => set('duree_hebdo', e.target.value)}
-                  />
-                </div>
-                <div className="field">
-                  <label>NBI (points)</label>
-                  <input type="number" value={form.nbi} onChange={(e) => set('nbi', e.target.value)} />
-                </div>
+              <div className="field">
+                <label>NBI (points)</label>
+                <input type="number" value={form.nbi} onChange={(e) => set('nbi', e.target.value)} />
               </div>
 
               <div className="field">
@@ -401,14 +428,6 @@ export default function SimulationForm({ options }: Props) {
                     />
                     <span className="check-label">Complément de traitement indiciaire (Ségur)</span>
                   </label>
-                  <label className="check">
-                    <input
-                      type="checkbox"
-                      checked={form.prime_annuelle}
-                      onChange={(e) => set('prime_annuelle', e.target.checked)}
-                    />
-                    <span className="check-label">Prime de fin d’année (PFA)</span>
-                  </label>
                 </div>
               </div>
             </div>
@@ -426,11 +445,23 @@ export default function SimulationForm({ options }: Props) {
       </div>
 
       {/* Colonne droite — Résultats */}
-      <div className="col">
+      <div className="col col-results">
         {error && <div className="error-banner">{error}</div>}
 
         {result && (
           <>
+            <div className="print-params">
+              <h2>Paramètres saisis</h2>
+              <div className="print-params-grid">
+                {paramsList.map(([label, value]) => (
+                  <div className="pp-item" key={label}>
+                    <span className="pp-label">{label}</span>
+                    <span className="pp-value">{value || '—'}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
             <div className="synthesis">
               <div className="synthesis-top">
                 <div>
@@ -443,7 +474,7 @@ export default function SimulationForm({ options }: Props) {
                 </div>
                 <div className="synthesis-side">
                   <div>
-                    <span className="k">Traitement brut mensuel</span>
+                    <span className="k">Salaire Brut Mensuel</span>
                     <div className="v">{fmt(result.salaire_brut)}</div>
                   </div>
                   <div>
@@ -487,6 +518,17 @@ export default function SimulationForm({ options }: Props) {
                 </div>
               </div>
             </div>
+
+            <label className="check check--highlight" style={{ marginBottom: 12 }}>
+              <input
+                type="checkbox"
+                checked={form.prime_annuelle}
+                onChange={(e) => set('prime_annuelle', e.target.checked)}
+              />
+              <span className="check-label">
+                Cochez pour application de la Prime annuelle lissée mensuellement
+              </span>
+            </label>
 
             <div className="card">
               <div className="card-pad">

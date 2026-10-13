@@ -44,7 +44,7 @@ export default function App() {
             <span className="brand-name">Simulateur de salaire</span>
             <span className="brand-badge">
               <span className="dot" />
-              Fonction publique territoriale
+              Mairie d'Ivry-sur-Seine
             </span>
           </div>
 
@@ -72,12 +72,7 @@ export default function App() {
           {tab === 'simulation' && (
             <>
               <div className="page-title">
-                <h1>Simulateur de rémunération — Fonction publique territoriale</h1>
-                <p>
-                  Calcul précis du traitement indiciaire brut, des primes (IFSE, SFT, NBI, Ségur,
-                  prime de fin d'année) et des cotisations statutaires (CNRACL, RAFP, IRCANTEC,
-                  CSG/CRDS) pour titulaires et contractuels.
-                </p>
+                <h1>Simulateur de rémunération — Mairie d'Ivry-sur-Seine</h1>
               </div>
               {error && <div className="error-banner">{error}</div>}
               <SimulationForm options={options} />

@@ -426,6 +426,15 @@ body {
   margin-top: 1px;
 }
 
+.check--highlight {
+  background: #fff6d9;
+  border-color: #e6c877;
+}
+
+.check--highlight:hover {
+  background: #ffefc0;
+}
+
 /* Info note */
 .note {
   background: var(--gov-blue-light);
@@ -911,4 +920,141 @@ table.bulletin tr.net td.montant {
 .app-footer strong {
   font-family: var(--font-display);
   color: var(--primary);
+}
+
+/* ---------- Récapitulatif des paramètres (visible à l'impression) ---------- */
+.print-params {
+  display: none;
+}
+
+/* ---------- Impression ---------- */
+@media print {
+  html,
+  body {
+    background: #fff !important;
+  }
+
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .print-params {
+    display: block;
+    margin-bottom: 16px;
+    border: 1px solid var(--outline-variant);
+    border-radius: var(--r-sm);
+    padding: 10px 12px;
+  }
+
+  .print-params h2 {
+    font-family: var(--font-display);
+    font-size: 14px;
+    margin: 0 0 8px;
+    color: var(--primary);
+  }
+
+  .print-params-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px 24px;
+  }
+
+  .pp-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    font-size: 11px;
+    padding: 3px 0;
+    border-bottom: 1px solid var(--outline-variant);
+  }
+
+  .pp-label {
+    color: var(--muted);
+  }
+
+  .pp-value {
+    font-weight: 600;
+    color: var(--primary);
+    text-align: right;
+  }
+
+  /* Masquer l'interface (en-tête, formulaire, boutons, pied de page) */
+  .app-header,
+  .app-footer,
+  .col-form,
+  .note,
+  .actions,
+  .check--highlight {
+    display: none !important;
+  }
+
+  .grid {
+    display: block !important;
+  }
+
+  .col-results {
+    display: block !important;
+  }
+
+  .page-title {
+    margin-bottom: 12px !important;
+    padding-bottom: 8px !important;
+  }
+
+  .page-title h1 {
+    font-size: 20px !important;
+  }
+
+  .card,
+  .synthesis {
+    box-shadow: none !important;
+  }
+
+  /* Carte de synthèse en thème clair (lisible à l'impression) */
+  .synthesis {
+    background: #fff !important;
+    border: 1px solid var(--outline-variant) !important;
+    color: var(--on-surface) !important;
+  }
+
+  .synthesis .synthesis-net {
+    color: var(--secondary) !important;
+  }
+
+  .synthesis .synthesis-label,
+  .synthesis .synthesis-caption,
+  .synthesis-side .k,
+  .synthesis-side .v.muted {
+    color: var(--on-surface-variant) !important;
+  }
+
+  .synthesis-side .v {
+    color: var(--on-surface) !important;
+  }
+
+  .synthesis-side {
+    border-left-color: var(--outline-variant) !important;
+  }
+
+  table.bulletin {
+    font-size: 12px !important;
+  }
+
+  table.bulletin th,
+  table.bulletin td {
+    padding: 5px 8px !important;
+  }
+
+  .decomp,
+  .card,
+  .synthesis,
+  table.bulletin tr {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .annual-note {
+    font-size: 11px !important;
+  }
 }
