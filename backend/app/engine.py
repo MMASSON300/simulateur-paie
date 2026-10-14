@@ -60,7 +60,8 @@ def _lookup_categorie(ref: ReferenceData, grade: str) -> str:
 
 
 def _lookup_ifse(ref: ReferenceData, regime: str, grade: str) -> float:
-    return ref.ifse_lookup.get(f"{regime}{grade}", 0.0)
+    # Recherche insensible a la casse (comme VLOOKUP d'Excel).
+    return ref.ifse_lookup.get(f"{regime}{grade}".lower(), 0.0)
 
 
 def _quotite(ref: ReferenceData, duree_hebdo: float, temps_partiel: Optional[float]) -> float:

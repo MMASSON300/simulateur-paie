@@ -59,14 +59,14 @@
     "code_regime": "02",
     "regime": "Directeur",
     "grade_code": 2724,
-    "grade": "Ingénieur HCl",
+    "grade": "Ingénieur hors classe",
     "montant": 2350.0
   },
   {
     "code_regime": "02",
     "regime": "Directeur",
     "grade_code": 2722,
-    "grade": "Ingénieur Pal",
+    "grade": "Ingénieur principal",
     "montant": 2350.0
   },
   {
@@ -213,14 +213,14 @@
     "code_regime": "80",
     "regime": "Directeur expertise informatique",
     "grade_code": 2724,
-    "grade": "Ingénieur HCl",
+    "grade": "Ingénieur hors classe",
     "montant": 2875.0
   },
   {
     "code_regime": "80",
     "regime": "Directeur expertise informatique",
     "grade_code": 2722,
-    "grade": "Ingénieur Pal",
+    "grade": "Ingénieur principal",
     "montant": 2875.0
   },
   {
@@ -276,14 +276,14 @@
     "code_regime": "03",
     "regime": "Responsable de service",
     "grade_code": 2724,
-    "grade": "Ingénieur HCl",
+    "grade": "Ingénieur hors classe",
     "montant": 1775.0
   },
   {
     "code_regime": "03",
     "regime": "Responsable de service",
     "grade_code": 2722,
-    "grade": "Ingénieur Pal",
+    "grade": "Ingénieur principal",
     "montant": 1775.0
   },
   {
@@ -458,14 +458,14 @@
     "code_regime": "81",
     "regime": "Responsable de service expertise informatique",
     "grade_code": 2724,
-    "grade": "Ingénieur HCl",
+    "grade": "Ingénieur hors classe",
     "montant": 2300.0
   },
   {
     "code_regime": "81",
     "regime": "Responsable de service expertise informatique",
     "grade_code": 2722,
-    "grade": "Ingénieur Pal",
+    "grade": "Ingénieur principal",
     "montant": 2300.0
   },
   {
@@ -493,14 +493,14 @@
     "code_regime": "04",
     "regime": "Responsable de secteur",
     "grade_code": 2724,
-    "grade": "Ingénieur HCl",
+    "grade": "Ingénieur hors classe",
     "montant": 1375.0
   },
   {
     "code_regime": "04",
     "regime": "Responsable de secteur",
     "grade_code": 2722,
-    "grade": "Ingénieur Pal",
+    "grade": "Ingénieur principal",
     "montant": 1375.0
   },
   {
@@ -654,14 +654,14 @@
     "code_regime": "82",
     "regime": "Responsable de secteur expertise informatique",
     "grade_code": 2724,
-    "grade": "Ingénieur HCl",
+    "grade": "Ingénieur hors classe",
     "montant": 1900.0
   },
   {
     "code_regime": "82",
     "regime": "Responsable de secteur expertise informatique",
     "grade_code": 2722,
-    "grade": "Ingénieur Pal",
+    "grade": "Ingénieur principal",
     "montant": 1900.0
   },
   {
@@ -1032,14 +1032,14 @@
     "code_regime": "-",
     "regime": "Non encadrant.e",
     "grade_code": 2724,
-    "grade": "Ingénieur HCl",
+    "grade": "Ingénieur hors classe",
     "montant": 1100.0
   },
   {
     "code_regime": "-",
     "regime": "Non encadrant.e",
     "grade_code": 2722,
-    "grade": "Ingénieur Pal",
+    "grade": "Ingénieur principal",
     "montant": 1100.0
   },
   {
@@ -1256,14 +1256,14 @@
     "code_regime": 31,
     "regime": "Non encadrant direction ou coordination",
     "grade_code": 2724,
-    "grade": "Ingénieur HCl",
+    "grade": "Ingénieur hors classe",
     "montant": 1375.0
   },
   {
     "code_regime": 31,
     "regime": "Non encadrant direction ou coordination",
     "grade_code": 2722,
-    "grade": "Ingénieur Pal",
+    "grade": "Ingénieur principal",
     "montant": 1375.0
   },
   {
@@ -1480,14 +1480,14 @@
     "code_regime": 21,
     "regime": "Expertise informatique",
     "grade_code": 2724,
-    "grade": "Ingénieur HCl",
+    "grade": "Ingénieur hors classe",
     "montant": 1625.0
   },
   {
     "code_regime": 21,
     "regime": "Expertise informatique",
     "grade_code": 2722,
-    "grade": "Ingénieur Pal",
+    "grade": "Ingénieur principal",
     "montant": 1625.0
   },
   {
@@ -1515,14 +1515,14 @@
     "code_regime": 86,
     "regime": "Non encadrant.e direction ou coordination expertise informatique",
     "grade_code": 2724,
-    "grade": "Ingénieur HCl",
+    "grade": "Ingénieur hors classe",
     "montant": 1900.0
   },
   {
     "code_regime": 86,
     "regime": "Non encadrant.e direction ou coordination expertise informatique",
     "grade_code": 2722,
-    "grade": "Ingénieur Pal",
+    "grade": "Ingénieur principal",
     "montant": 1900.0
   },
   {
