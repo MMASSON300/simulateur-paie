@@ -73,6 +73,18 @@ def _quotite(ref: ReferenceData, duree_hebdo: float, temps_partiel: Optional[flo
     return base * facteur
 
 
+def _quotite_plafond(duree_hebdo: float, temps_partiel: Optional[float]) -> float:
+    """Quotité appliquée au plafond de la sécurité sociale.
+
+    Utilise la QUOTITÉ de temps partiel (ex. 0,8 pour 80 %), et non le facteur
+    de conversion du barème (ex. 6/7). Le plafond plein correspond à une quotité de 1.
+    """
+    base = duree_hebdo / 35.0
+    if temps_partiel is None or temps_partiel == "":
+        return base
+    return base * float(temps_partiel)
+
+
 def _sft_montant(
     ref: ReferenceData,
     enfants: int,
@@ -191,9 +203,9 @@ def compute(ref: ReferenceData, inp: dict[str, Any]) -> dict[str, Any]:
         h38 = 0.0
 
     if est_non_titulaire:
-        # Le plafond de la securite sociale est proratise par la quotite
-        # de temps partiel (le plafond plein correspond a une quotite de 1).
-        plafond = ref.plafond_ss * quotite
+        # Le plafond de la securite sociale est proratise par la QUOTITE de
+        # temps partiel (ex. 0,8 pour 80 %), et non par le facteur du bareme.
+        plafond = ref.plafond_ss * _quotite_plafond(duree_hebdo, temps_partiel)
         h39 = h35 * TAUX_SS_VIEILLESSE_TOTALITE
         h40 = min(h35, plafond) * TAUX_SS_VIEILLESSE_PLAFONNEE
         h41 = min(h35, plafond) * TAUX_IRCANTEC_A
