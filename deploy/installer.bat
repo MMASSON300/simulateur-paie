@@ -80,6 +80,12 @@ if errorlevel 1 (
     exit /b 1
 )
 
+rem --- 3bis. Fichier .env (mot de passe) - cree s'il n'existe pas ---
+if not exist "%ROOT%backend\.env" (
+    > "%ROOT%backend\.env" echo ADMIN_PASSWORD=admin
+    echo       Fichier .env cree (mot de passe admin par defaut : admin).
+)
+
 rem --- 4. Initialisation de la base ---
 echo.
 echo [3/6] Initialisation de la base de donnees...
