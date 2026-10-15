@@ -124,6 +124,7 @@ echo.
 echo [5/6] Demarrage
 choice /C ON /M "Demarrer l'application maintenant ? [O]ui [N]on"
 if errorlevel 2 goto summary
+schtasks /End /TN "SimulateurPaie" >nul 2>&1
 schtasks /Run /TN "SimulateurPaie" >nul 2>&1
 echo       Application lancee (demarrage en quelques secondes).
 

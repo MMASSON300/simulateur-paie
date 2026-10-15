@@ -71,3 +71,18 @@ Le script :
 ## Repartir de zéro
 
 Supprimez `backend\paie.db` (et éventuellement `backend\.env`) puis relancez `installer.bat`.
+
+## Si le serveur boucle (port 8080 déjà utilisé)
+
+Si le lanceur a été déclenché deux fois, deux instances se disputent le port 8080 et la
+console répète `[Errno 10048] ... port 8080`. Depuis une console **administrateur** :
+
+```powershell
+schtasks /End /TN SimulateurPaie
+Get-CimInstance Win32_Process | Where-Object { $_.CommandLine -match 'demarrer-serveur|uvicorn' } |
+  ForEach-Object { Stop-Process -Id $_.ProcessId -Force }
+schtasks /Run /TN SimulateurPaie
+```
+
+Le script `demarrer-serveur.bat` est depuis **mono-instance** : il ne démarre plus un second
+serveur si le port 8080 est déjà occupé.

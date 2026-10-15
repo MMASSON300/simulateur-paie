@@ -59,7 +59,7 @@ echo [2/5] Copie des fichiers...
 if /i "%TARGET%"=="%SRCDIR%" (
     echo       Source = cible : fichier deja en place, copie ignoree.
 ) else (
-    robocopy "%SRCDIR%" "%TARGET%" /E /XF .env paie.db python-path.txt /NFL /NDL /NJH /NJS /NP >nul
+    robocopy "%SRCDIR%" "%TARGET%" /E /XF .env paie.db python-path.txt server.lock /NFL /NDL /NJH /NJS /NP >nul
     if !ERRORLEVEL! GEQ 8 (
         echo [ERREUR] Echec de la copie des fichiers.
         pause
