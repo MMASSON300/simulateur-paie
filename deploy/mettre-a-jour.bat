@@ -94,8 +94,7 @@ echo       Donnees existantes conservees.
 rem --- 5. Redemarrage du service ---
 echo.
 echo [5/5] Redemarrage du service...
-schtasks /Query /TN "SimulateurPaie" >nul 2>&1
-if errorlevel 1 schtasks /Create /TN "SimulateurPaie" /TR "\"%TARGET%\demarrer-serveur.bat\"" /SC ONSTART /RU SYSTEM /F >nul 2>&1
+powershell -NoProfile -ExecutionPolicy Bypass -Command "$a = New-ScheduledTaskAction -Execute '%TARGET%\demarrer-serveur.bat'; $t = New-ScheduledTaskTrigger -AtStartup; $p = New-ScheduledTaskPrincipal -UserId 'SYSTEM' -LogonType ServiceAccount -RunLevel Highest; $s = New-ScheduledTaskSettingsSet -MultipleInstances IgnoreNew; Register-ScheduledTask -TaskName 'SimulateurPaie' -Action $a -Trigger $t -Principal $p -Settings $s -Force" >nul 2>&1
 schtasks /Run /TN "SimulateurPaie" >nul 2>&1
 
 echo       Attente du demarrage...

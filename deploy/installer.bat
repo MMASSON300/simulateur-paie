@@ -112,11 +112,13 @@ if errorlevel 1 (
 ) else (
     echo       Port 8080 ouvert dans le pare-feu.
 )
-schtasks /Create /TN "SimulateurPaie" /TR "\"%ROOT%demarrer-serveur.bat\"" /SC ONSTART /RU SYSTEM /F >nul 2>&1
+schtasks /End /TN "SimulateurPaie" >nul 2>&1
+powershell -NoProfile -ExecutionPolicy Bypass -Command "$a = New-ScheduledTaskAction -Execute '%ROOT%demarrer-serveur.bat'; $t = New-ScheduledTaskTrigger -AtStartup; $p = New-ScheduledTaskPrincipal -UserId 'SYSTEM' -LogonType ServiceAccount -RunLevel Highest; $s = New-ScheduledTaskSettingsSet -MultipleInstances IgnoreNew; Register-ScheduledTask -TaskName 'SimulateurPaie' -Action $a -Trigger $t -Principal $p -Settings $s -Force" >nul 2>&1
+schtasks /Query /TN "SimulateurPaie" >nul 2>&1
 if errorlevel 1 (
     echo       [ATTENTION] Impossible de creer la tache planifiee.
 ) else (
-    echo       Tache planifiee "SimulateurPaie" creee (demarrage au boot).
+    echo       Tache planifiee "SimulateurPaie" creee ^(demarrage au boot, instance unique^).
 )
 
 rem --- 7. Demarrer maintenant ? ---
