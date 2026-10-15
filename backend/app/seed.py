@@ -15,6 +15,7 @@ import sys
 from pathlib import Path
 
 from .database import Base, SessionLocal, engine
+from .engine import TAUX_DEFAUT
 from . import models
 
 SEED_DIR = Path(__file__).parent / "seed_data"
@@ -34,12 +35,28 @@ def _load(name: str):
         return json.load(f)
 
 
+def _ensure_constants(db) -> None:
+    """Ajoute les constantes manquantes (grille + taux de cotisations)."""
+    const = _load("constants.json")
+    wanted: dict[str, float] = {k: float(const[k]) for k in CONST_KEYS}
+    wanted.update({k: float(v) for k, v in TAUX_DEFAUT.items()})
+    existing = {c.cle for c in db.query(models.Constant).all()}
+    added = 0
+    for cle, valeur in wanted.items():
+        if cle not in existing:
+            db.add(models.Constant(cle=cle, valeur=valeur))
+            added += 1
+    if added:
+        db.commit()
+
+
 def seed(force: bool = False) -> None:
     Base.metadata.create_all(bind=engine)
     db = SessionLocal()
     try:
         if not force and db.query(models.Grade).count() > 0:
-            print("Base déjà initialisée — seed ignoré (utilisez --force pour réinitialiser).")
+            _ensure_constants(db)
+            print("Base déjà initialisée — données de référence conservées ; constantes vérifiées.")
             return
 
         # Purge
@@ -64,11 +81,8 @@ def seed(force: bool = False) -> None:
         for t in _load("constants.json")["transfert_prime_point"]:
             db.add(models.TransfertPrimePoint(**t))
 
-        const = _load("constants.json")
-        for k in CONST_KEYS:
-            db.add(models.Constant(cle=k, valeur=const[k]))
-
         db.commit()
+        _ensure_constants(db)  # constantes de la grille + taux de cotisations
         print("Base seedée :")
         print(f"  grades    : {db.query(models.Grade).count()}")
         print(f"  ifse      : {db.query(models.Ifse).count()}")

@@ -10,19 +10,40 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Any, Optional
 
-# Valeurs codées en dur dans les formules Excel (constantes de la réglementation).
-TAUX_RESIDENCE = 0.03
-TAUX_INDEMNITE_CSG = 0.0076  # 0,76 %
-TAUX_RAFP = 0.05
-TAUX_CNRACL = 0.111
-TAUX_SS_VIEILLESSE_TOTALITE = 0.004
-TAUX_SS_VIEILLESSE_PLAFONNEE = 0.069
-TAUX_IRCANTEC_A = 0.024
-TAUX_IRCANTEC_B = 0.0706
-TAUX_CSG = 0.024
-TAUX_RDS = 0.005
-TAUX_CSG_DEDUCTIBLE = 0.068
-ABATTEMENT_CSG = 0.9825
+# Taux et coefficients de la réglementation. Valeurs par défaut, modifiables
+# via l'interface d'administration (onglet « Constantes »).
+TAUX_DEFAUT: dict[str, float] = {
+    "taux_residence": 0.03,
+    "taux_indemnite_csg": 0.0076,  # 0,76 %
+    "taux_rafp": 0.05,
+    "taux_cnracl": 0.111,
+    "taux_ss_vieillesse_totalite": 0.004,
+    "taux_ss_vieillesse_plafonnee": 0.069,
+    "taux_ircantec_a": 0.024,
+    "taux_ircantec_b": 0.0706,
+    "taux_csg": 0.024,
+    "taux_rds": 0.005,
+    "taux_csg_deductible": 0.068,
+    "abattement_csg": 0.9825,
+    "plafond_rafp_primes": 0.20,
+}
+
+# Libellés affichés dans l'administration.
+TAUX_LIBELLES: dict[str, str] = {
+    "taux_residence": "Taux — indemnité de résidence",
+    "taux_indemnite_csg": "Taux — indemnité compensatrice CSG",
+    "taux_rafp": "Taux RAFP",
+    "taux_cnracl": "Taux CNRACL",
+    "taux_ss_vieillesse_totalite": "Taux SS Vieillesse totalité",
+    "taux_ss_vieillesse_plafonnee": "Taux SS Vieillesse plafonnée",
+    "taux_ircantec_a": "Taux IRCANTEC tranche A",
+    "taux_ircantec_b": "Taux IRCANTEC tranche B",
+    "taux_csg": "Taux CSG (non déductible)",
+    "taux_rds": "Taux RDS (CRDS)",
+    "taux_csg_deductible": "Taux CSG déductible",
+    "abattement_csg": "Abattement d'assiette CSG/RDS (0,9825 = 98,25 %)",
+    "plafond_rafp_primes": "Plafond primes RAFP (part du traitement)",
+}
 
 # Constantes structurelles du calcul (exprimées en indice dans le fichier).
 SEUIL_SFT_BAS = 454
@@ -41,6 +62,7 @@ class ReferenceData:
     prime_segur_mensuel: float
     prime_pga_mensuel: float
 
+    taux: dict[str, float] = field(default_factory=dict)  # clé -> taux (surcharge TAUX_DEFAUT)
     temps_partiel: dict[float, float] = field(default_factory=dict)  # quotité -> facteur
     transfert_prime_point: dict[str, float] = field(default_factory=dict)  # catégorie -> annuel
     sft: dict[int, tuple[float, Optional[float]]] = field(default_factory=dict)  # enfants -> (fixe, proportionnel)
@@ -136,6 +158,9 @@ def compute(ref: ReferenceData, inp: dict[str, Any]) -> dict[str, Any]:
     est_titulaire = statut == "Titulaire"
     est_non_titulaire = statut == "Non titulaire"
 
+    # Taux et coefficients (surchargeables via l'administration > Constantes).
+    t = {**TAUX_DEFAUT, **ref.taux}
+
     # --- Indice majoré (G11) ---
     im = _lookup_im(ref, grade, echelon)
 
@@ -145,7 +170,7 @@ def compute(ref: ReferenceData, inp: dict[str, Any]) -> dict[str, Any]:
     # --- Gains (éléments de paie) ---
     h24 = im * ref.valeur_point * quotite  # Traitement de base indiciaire
     h25 = nbi * ref.valeur_point * quotite  # NBI
-    h26 = (h24 + h25) * TAUX_RESIDENCE  # Indemnité de résidence
+    h26 = (h24 + h25) * t["taux_residence"]  # Indemnité de résidence
 
     # Indemnité différentielle SMIC
     smic_indiciaire = im * ref.valeur_point
@@ -183,7 +208,7 @@ def compute(ref: ReferenceData, inp: dict[str, Any]) -> dict[str, Any]:
             h30 = float(indemnite_csg)
         else:
             base_csg = h24 + h25 + h26 + h29 + h27 + h28 + h31 + h32 - h33
-            h30 = base_csg * TAUX_INDEMNITE_CSG
+            h30 = base_csg * t["taux_indemnite_csg"]
     elif est_non_titulaire and cdi:
         h30 = float(indemnite_csg) if indemnite_csg not in (None, "") else 0.0
 
@@ -195,9 +220,9 @@ def compute(ref: ReferenceData, inp: dict[str, Any]) -> dict[str, Any]:
 
     # --- Cotisations ---
     if est_titulaire:
-        base_rafp = min(h35 - (h24 + h25), 0.2 * h24)
-        h37 = base_rafp * TAUX_RAFP  # RAFP
-        h38 = (h24 + h25) * TAUX_CNRACL  # CNRACL
+        base_rafp = min(h35 - (h24 + h25), t["plafond_rafp_primes"] * h24)
+        h37 = base_rafp * t["taux_rafp"]  # RAFP
+        h38 = (h24 + h25) * t["taux_cnracl"]  # CNRACL
     else:
         h37 = 0.0
         h38 = 0.0
@@ -206,18 +231,18 @@ def compute(ref: ReferenceData, inp: dict[str, Any]) -> dict[str, Any]:
         # Le plafond de la securite sociale est proratise par la QUOTITE de
         # temps partiel (ex. 0,8 pour 80 %), et non par le facteur du bareme.
         plafond = ref.plafond_ss * _quotite_plafond(duree_hebdo, temps_partiel)
-        h39 = h35 * TAUX_SS_VIEILLESSE_TOTALITE
-        h40 = min(h35, plafond) * TAUX_SS_VIEILLESSE_PLAFONNEE
-        h41 = min(h35, plafond) * TAUX_IRCANTEC_A
+        h39 = h35 * t["taux_ss_vieillesse_totalite"]
+        h40 = min(h35, plafond) * t["taux_ss_vieillesse_plafonnee"]
+        h41 = min(h35, plafond) * t["taux_ircantec_a"]
         base_b = max(h35 - plafond, 0.0)
-        h42 = base_b * TAUX_IRCANTEC_B
+        h42 = base_b * t["taux_ircantec_b"]
     else:
         h39 = h40 = h41 = h42 = 0.0
 
-    base_csg_rds = h35 * ABATTEMENT_CSG
-    h43 = base_csg_rds * TAUX_CSG
-    h44 = base_csg_rds * TAUX_RDS
-    h45 = base_csg_rds * TAUX_CSG_DEDUCTIBLE
+    base_csg_rds = h35 * t["abattement_csg"]
+    h43 = base_csg_rds * t["taux_csg"]
+    h44 = base_csg_rds * t["taux_rds"]
+    h45 = base_csg_rds * t["taux_csg_deductible"]
 
     # --- Salaire net (avant PAS) ---
     h46 = h35 - h37 - h38 - h39 - h40 - h41 - h42 - h43 - h44 - h45

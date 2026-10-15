@@ -89,6 +89,10 @@ echo       Donnees de reference reinitialisees.
 goto reseed_done
 :no_reseed
 echo       Donnees existantes conservees.
+rem S'assurer que les constantes/taux manquants sont ajoutes (sans rien ecraser).
+pushd "%TARGET%\backend"
+"%PYTHON%" -m app.seed >nul 2>&1
+popd
 :reseed_done
 
 rem --- 5. Redemarrage du service ---

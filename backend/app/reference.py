@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 from typing import Any
 
-from .engine import ReferenceData
+from .engine import TAUX_DEFAUT, ReferenceData
 
 SEED_DIR = Path(__file__).parent / "seed_data"
 
@@ -32,6 +32,7 @@ def build_reference_from_json() -> ReferenceData:
         int(s["enfants"]): (float(s["element_fixe"]), s["element_proportionnel"])
         for s in sft
     }
+    taux = {**TAUX_DEFAUT, **{k: float(v) for k, v in const.items() if k in TAUX_DEFAUT}}
 
     return ReferenceData(
         valeur_point=float(const["valeur_point"]),
@@ -40,6 +41,7 @@ def build_reference_from_json() -> ReferenceData:
         prime_pfa_mensuel=float(const["prime_pfa_mensuel"]),
         prime_segur_mensuel=float(const["prime_segur_mensuel"]),
         prime_pga_mensuel=float(const["prime_pga_mensuel"]),
+        taux=taux,
         temps_partiel=temps_partiel,
         transfert_prime_point=transfert,
         sft=sft_map,
@@ -59,6 +61,7 @@ def build_reference_from_db(db) -> ReferenceData:
     temps = db.query(models.TempsPartiel).all()
     transferts = db.query(models.TransfertPrimePoint).all()
     constants = {c.cle: c.valeur for c in db.query(models.Constant).all()}
+    taux = {**TAUX_DEFAUT, **{k: v for k, v in constants.items() if k in TAUX_DEFAUT}}
 
     return ReferenceData(
         valeur_point=constants["valeur_point"],
@@ -67,6 +70,7 @@ def build_reference_from_db(db) -> ReferenceData:
         prime_pfa_mensuel=constants["prime_pfa_mensuel"],
         prime_segur_mensuel=constants["prime_segur_mensuel"],
         prime_pga_mensuel=constants["prime_pga_mensuel"],
+        taux=taux,
         temps_partiel={t.quotite: t.facteur for t in temps},
         transfert_prime_point={t.categorie: t.montant_annuel for t in transferts},
         sft={s.enfants: (s.element_fixe, s.element_proportionnel) for s in sft},

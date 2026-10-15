@@ -495,6 +495,19 @@ function ConstantRow({ constant, onSaved }: { constant: Constant; onSaved: () =>
     prime_pfa_mensuel: 'Prime de fin d’année (mensuel)',
     prime_segur_mensuel: 'CTI Ségur (mensuel)',
     prime_pga_mensuel: 'Prime grand âge (mensuel)',
+    taux_residence: 'Taux — indemnité de résidence',
+    taux_indemnite_csg: 'Taux — indemnité compensatrice CSG',
+    taux_rafp: 'Taux RAFP',
+    taux_cnracl: 'Taux CNRACL',
+    taux_ss_vieillesse_totalite: 'Taux SS Vieillesse totalité',
+    taux_ss_vieillesse_plafonnee: 'Taux SS Vieillesse plafonnée',
+    taux_ircantec_a: 'Taux IRCANTEC tranche A',
+    taux_ircantec_b: 'Taux IRCANTEC tranche B',
+    taux_csg: 'Taux CSG (non déductible)',
+    taux_rds: 'Taux RDS (CRDS)',
+    taux_csg_deductible: 'Taux CSG déductible',
+    abattement_csg: 'Abattement d’assiette CSG/RDS (0,9825 = 98,25 %)',
+    plafond_rafp_primes: 'Plafond primes RAFP (part du traitement)',
   }
 
   return (
