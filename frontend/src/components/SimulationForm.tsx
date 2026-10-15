@@ -84,7 +84,9 @@ const REGLES: Record<string, string> = {
 }
 
 function pct(n: number): string {
-  return n.toLocaleString('fr-FR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' %'
+  return (
+    (n * 100).toLocaleString('fr-FR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' %'
+  )
 }
 
 function regleFor(e: ElementPaie): string {
