@@ -7,7 +7,22 @@ type Section = 'grades' | 'ifse' | 'sft' | 'constants' | 'temps' | 'transfert'
 interface Column<T> {
   key: keyof T & string
   label: string
-  type?: 'text' | 'number'
+  type?: 'text' | 'number' | 'fraction'
+}
+
+/** Accepte un nombre décimal (« 0.857 ») ou une fraction (« 6/7 »). */
+function parseFraction(input: string): number | null {
+  const s = input.trim()
+  if (s === '') return null
+  const parts = s.split('/')
+  if (parts.length === 2) {
+    const a = Number(parts[0])
+    const b = Number(parts[1])
+    if (Number.isFinite(a) && Number.isFinite(b) && b !== 0) return a / b
+    return null
+  }
+  const n = Number(s)
+  return Number.isFinite(n) ? n : null
 }
 
 interface EditableTableProps<T extends { id: number }> {
@@ -35,6 +50,7 @@ function EditableTable<T extends { id: number }>({
   const [newDraft, setNewDraft] = useState<T | null>(null)
   const [query, setQuery] = useState('')
   const [filters, setFilters] = useState<Record<string, string>>({})
+  const [fractionRaw, setFractionRaw] = useState<Record<string, string>>({})
   const [busy, setBusy] = useState(false)
 
   const distinctValues = (key: keyof T & string): string[] =>
@@ -138,25 +154,30 @@ function EditableTable<T extends { id: number }>({
               <tr key={row.id}>
                 {columns.map((c) => {
                   const isNum = c.type === 'number'
+                  const isFrac = c.type === 'fraction'
                   const v = value(row, c.key)
-                  const val = v === '' || v === null || v === undefined ? '' : String(v)
+                  const fkey = `${row.id}:${c.key}`
+                  const decVal = v === '' || v === null || v === undefined ? '' : String(v)
+                  const val = isFrac ? fractionRaw[fkey] ?? decVal : decVal
                   return (
                     <td key={c.key} className={isNum ? 'num' : ''}>
                       <input
                         value={val}
                         type={isNum ? 'number' : 'text'}
                         step={isNum ? 'any' : undefined}
-                        onChange={(e) =>
-                          setValue(
-                            row,
-                            c.key,
-                            isNum
-                              ? e.target.value === ''
-                                ? ''
-                                : Number(e.target.value)
-                              : e.target.value,
-                          )
-                        }
+                        placeholder={isFrac ? 'ex. 6/7' : undefined}
+                        onChange={(e) => {
+                          const raw = e.target.value
+                          if (isFrac) {
+                            setFractionRaw((prev) => ({ ...prev, [fkey]: raw }))
+                            const parsed = parseFraction(raw)
+                            setValue(row, c.key, parsed === null ? '' : parsed)
+                          } else if (isNum) {
+                            setValue(row, c.key, raw === '' ? '' : Number(raw))
+                          } else {
+                            setValue(row, c.key, raw)
+                          }
+                        }}
                       />
                     </td>
                   )
@@ -200,17 +221,21 @@ function EditableTable<T extends { id: number }>({
                           value={newDraft[c.key] == null ? '' : String(newDraft[c.key])}
                           type={c.type === 'number' ? 'number' : 'text'}
                           step={c.type === 'number' ? 'any' : undefined}
-                          onChange={(e) =>
-                            setNewDraft({
-                              ...newDraft,
-                              [c.key]:
-                                c.type === 'number'
-                                  ? e.target.value === ''
-                                    ? ('' as never)
-                                    : (Number(e.target.value) as never)
-                                  : (e.target.value as never),
-                            })
-                          }
+                          placeholder={c.type === 'fraction' ? 'ex. 6/7' : undefined}
+                          onChange={(e) => {
+                            const raw = e.target.value
+                            if (c.type === 'number') {
+                              setNewDraft({
+                                ...newDraft,
+                                [c.key]: (raw === '' ? '' : Number(raw)) as never,
+                              })
+                            } else if (c.type === 'fraction') {
+                              const parsed = parseFraction(raw)
+                              setNewDraft({ ...newDraft, [c.key]: (parsed === null ? '' : parsed) as never })
+                            } else {
+                              setNewDraft({ ...newDraft, [c.key]: raw as never })
+                            }
+                          }}
                         />
                       </td>
                     ))}
@@ -260,7 +285,7 @@ const sftCols: Column<Sft>[] = [
 
 const tempsCols: Column<TempsPartiel>[] = [
   { key: 'quotite', label: 'Quotité', type: 'number' },
-  { key: 'facteur', label: 'Facteur', type: 'number' },
+  { key: 'facteur', label: 'Facteur (ex. 6/7)', type: 'fraction' },
 ]
 
 const transfertCols: Column<Transfert>[] = [
@@ -357,7 +382,7 @@ export default function AdminPanel({ onLogout }: { onLogout: () => void }) {
             columns={ifseCols}
             rows={ifse}
             searchable
-            filterable={['regime']}
+            filterable={['regime', 'grade']}
             newRow={{ id: 0, code_regime: '', regime: '', grade_code: '', grade: '', montant: 0 }}
             onCreate={async (r) => {
               await api.createIfse(r)

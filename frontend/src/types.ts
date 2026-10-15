@@ -3,6 +3,7 @@ export interface Options {
   cadres_par_filiere: Record<string, string[]>
   grades_par_cadre: Record<string, string[]>
   regimes_ifse: string[]
+  regimes_par_grade: Record<string, string[]>
   echelons: number[]
   statuts: string[]
   temps_partiel: number[]

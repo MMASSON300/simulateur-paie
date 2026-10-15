@@ -132,6 +132,7 @@ class Options(BaseModel):
     cadres_par_filiere: dict[str, list[str]]
     grades_par_cadre: dict[str, list[str]]
     regimes_ifse: list[str]
+    regimes_par_grade: dict[str, list[str]]
     echelons: list[int]
     statuts: list[str]
     temps_partiel: list[float]

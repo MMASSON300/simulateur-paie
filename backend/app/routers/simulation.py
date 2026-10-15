@@ -41,11 +41,29 @@ def options(db: Session = Depends(get_db)):
 
     regimes = sorted({i.regime for i in ifse if i.regime})
 
+    # Regimes IFSE applicables par grade (correspondance issue de la table IFSE).
+    # La comparaison des libelles de grade est insensible a la casse et aux espaces
+    # (comme la recherche IFSE du moteur).
+    def _norm(s: str | None) -> str:
+        return " ".join((s or "").lower().split())
+
+    regimes_par_grade_norm: dict[str, set[str]] = {}
+    for i in ifse:
+        if i.regime and i.grade:
+            regimes_par_grade_norm.setdefault(_norm(i.grade), set()).add(i.regime)
+
+    regimes_par_grade: dict[str, list[str]] = {}
+    for g in grades:
+        if not g.grade:
+            continue
+        regimes_par_grade[g.grade] = sorted(regimes_par_grade_norm.get(_norm(g.grade), set()))
+
     return {
         "filieres": filieres,
         "cadres_par_filiere": cadres_par_filiere,
         "grades_par_cadre": grades_par_cadre,
         "regimes_ifse": regimes,
+        "regimes_par_grade": regimes_par_grade,
         "echelons": list(range(1, 14)),
         "statuts": ["Titulaire", "Non titulaire"],
         "temps_partiel": [t.quotite for t in temps],

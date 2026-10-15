@@ -133,6 +133,11 @@ export default function SimulationForm({ options }: Props) {
           next.indemnite_csg = ''
         }
       }
+      // Les régimes IFSE dépendent du grade : on retire un régime devenu invalide.
+      const allowed = next.grade ? options?.regimes_par_grade[next.grade] ?? [] : []
+      if (next.regime_indem && !allowed.includes(next.regime_indem)) {
+        next.regime_indem = ''
+      }
       return next
     })
   }
@@ -179,6 +184,7 @@ export default function SimulationForm({ options }: Props) {
   const cadres = form.filiere ? options.cadres_par_filiere[form.filiere] ?? [] : []
   const grades = form.cadre ? options.grades_par_cadre[form.cadre] ?? [] : []
   const showCsg = form.statut === 'Titulaire' || (form.statut === 'Non titulaire' && form.cdi)
+  const regimesDisponibles = form.grade ? options.regimes_par_grade[form.grade] ?? [] : []
 
   const paramsList: [string, string][] = [
     ['Statut', form.statut],
@@ -393,10 +399,14 @@ export default function SimulationForm({ options }: Props) {
                 <label>Régime indemnitaire (IFSE)</label>
                 <select value={form.regime_indem} onChange={(e) => set('regime_indem', e.target.value)}>
                   <option value="">— Sélectionner —</option>
-                  {options.regimes_ifse.map((r) => (
+                  {regimesDisponibles.map((r) => (
                     <option key={r}>{r}</option>
                   ))}
                 </select>
+                {!form.grade && <span className="hint">Sélectionnez d'abord un grade.</span>}
+                {form.grade && regimesDisponibles.length === 0 && (
+                  <span className="hint">Aucun régime IFSE pour ce grade.</span>
+                )}
               </div>
 
               <div className="field">
