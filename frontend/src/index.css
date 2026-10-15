@@ -1,3 +1,33 @@
+/* ---------- JetBrains Mono (police officielle auto-hébergée, avec zéro barré) ---------- */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/jetbrains-mono/JetBrainsMono-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/jetbrains-mono/JetBrainsMono-Medium.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/jetbrains-mono/JetBrainsMono-SemiBold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/jetbrains-mono/JetBrainsMono-Bold.woff2') format('woff2');
+}
+
 :root {
   /* Palette — inspirée du design system « Fiduciaire Moderne » */
   --bg: #f8fafd;
@@ -920,6 +950,22 @@ table.bulletin tr.net td.montant {
 .app-footer strong {
   font-family: var(--font-display);
   color: var(--primary);
+}
+
+/* ---------- Zéro barré pour la police des chiffres ---------- */
+/* Évite la confusion entre 0 et 8 (JetBrains Mono a un zéro « pointé » par défaut). */
+.version-pill,
+.card-head .chip,
+.field input[type='number'],
+.synthesis-net,
+.synthesis-side .v,
+.decomp-head .rate,
+table.bulletin td.regle,
+table.bulletin td.montant,
+.kpi .kpi-value,
+.kpi .kpi-sub {
+  font-variant-numeric: slashed-zero;
+  font-feature-settings: 'zero' 1;
 }
 
 /* ---------- Récapitulatif des paramètres (visible à l'impression) ---------- */

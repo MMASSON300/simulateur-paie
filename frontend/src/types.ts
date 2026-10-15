@@ -32,12 +32,14 @@ export interface ElementPaie {
   code: string
   libelle: string
   gain: number
+  taux?: number | null
 }
 
 export interface Cotisation {
   code: string
   libelle: string
   retenue: number
+  taux: number
 }
 
 export interface SimulationResult {

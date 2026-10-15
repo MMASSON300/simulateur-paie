@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { api } from '../api'
-import type { Options, SimulationRequest, SimulationResult } from '../types'
+import type { ElementPaie, Options, SimulationRequest, SimulationResult } from '../types'
 
 interface FormState {
   statut: string
@@ -74,27 +74,23 @@ function fmt(n: number): string {
 const REGLES: Record<string, string> = {
   traitement: 'INM × point d’indice',
   nbi: 'Points NBI × point d’indice',
-  residence: '3 % du traitement + NBI',
   smic: 'Complément différentiel SMIC',
   sft: 'Selon nombre d’enfants',
   ifse: 'Primes statutaires',
-  csg: '0,76 % de la base indem.',
   pga: 'Prime grand âge',
   segur: 'Complément CTI Ségur',
   tpp: 'Transfert prime point',
   pfa: 'Prime de fin d’année',
 }
 
-const TAUX_COTIS: Record<string, string> = {
-  rafp: '5,00 %',
-  cnracl: '11,10 %',
-  ss_vieillesse_totalite: '0,40 %',
-  ss_vieillesse_plafonnee: '6,90 %',
-  ircantec_a: '2,40 %',
-  ircantec_b: '7,06 %',
-  csg: '2,40 %',
-  rds: '0,50 %',
-  csg_deductible: '6,80 %',
+function pct(n: number): string {
+  return n.toLocaleString('fr-FR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' %'
+}
+
+function regleFor(e: ElementPaie): string {
+  if (e.code === 'residence') return `${pct(e.taux ?? 0)} du traitement + NBI`
+  if (e.code === 'csg') return `${pct(e.taux ?? 0)} de la base indem.`
+  return REGLES[e.code] ?? ''
 }
 
 const RETRAITE_CODES = [
@@ -564,7 +560,7 @@ export default function SimulationForm({ options }: Props) {
                       {result.elements.map((e) => (
                         <tr key={e.code}>
                           <td className="libelle">{e.libelle}</td>
-                          <td className="regle">{REGLES[e.code] ?? ''}</td>
+                          <td className="regle">{regleFor(e)}</td>
                           <td className={`montant${e.gain < 0 ? ' neg' : ''}`}>{fmt(e.gain)}</td>
                         </tr>
                       ))}
@@ -585,7 +581,7 @@ export default function SimulationForm({ options }: Props) {
                       {result.cotisations.map((c) => (
                         <tr key={c.code}>
                           <td className="libelle">{c.libelle}</td>
-                          <td className="regle">{TAUX_COTIS[c.code] ?? ''}</td>
+                          <td className="regle">{pct(c.taux)}</td>
                           <td className="montant neg">{fmt(-c.retenue)}</td>
                         </tr>
                       ))}

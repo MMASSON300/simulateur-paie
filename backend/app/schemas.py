@@ -38,12 +38,14 @@ class ElementPaie(BaseModel):
     code: str
     libelle: str
     gain: float
+    taux: Optional[float] = None
 
 
 class Cotisation(BaseModel):
     code: str
     libelle: str
     retenue: float
+    taux: float
 
 
 class SimulationResponse(BaseModel):
