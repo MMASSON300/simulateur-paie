@@ -191,10 +191,13 @@ def compute(ref: ReferenceData, inp: dict[str, Any]) -> dict[str, Any]:
         h38 = 0.0
 
     if est_non_titulaire:
+        # Le plafond de la securite sociale est proratise par la quotite
+        # de temps partiel (le plafond plein correspond a une quotite de 1).
+        plafond = ref.plafond_ss * quotite
         h39 = h35 * TAUX_SS_VIEILLESSE_TOTALITE
-        h40 = min(h35, ref.plafond_ss) * TAUX_SS_VIEILLESSE_PLAFONNEE
-        h41 = min(h35, ref.plafond_ss) * TAUX_IRCANTEC_A
-        base_b = max(h35 - ref.plafond_ss, 0.0)
+        h40 = min(h35, plafond) * TAUX_SS_VIEILLESSE_PLAFONNEE
+        h41 = min(h35, plafond) * TAUX_IRCANTEC_A
+        base_b = max(h35 - plafond, 0.0)
         h42 = base_b * TAUX_IRCANTEC_B
     else:
         h39 = h40 = h41 = h42 = 0.0
