@@ -233,8 +233,10 @@ def compute(ref: ReferenceData, inp: dict[str, Any]) -> dict[str, Any]:
         plafond = ref.plafond_ss * _quotite_plafond(duree_hebdo, temps_partiel)
         h39 = h35 * t["taux_ss_vieillesse_totalite"]
         h40 = min(h35, plafond) * t["taux_ss_vieillesse_plafonnee"]
-        h41 = min(h35, plafond) * t["taux_ircantec_a"]
-        base_b = max(h35 - plafond, 0.0)
+        # IRCANTEC : le supplément familial de traitement (h28) est exclu de l'assiette.
+        assiette_ircantec = h35 - h28
+        h41 = min(assiette_ircantec, plafond) * t["taux_ircantec_a"]
+        base_b = max(assiette_ircantec - plafond, 0.0)
         h42 = base_b * t["taux_ircantec_b"]
     else:
         h39 = h40 = h41 = h42 = 0.0
