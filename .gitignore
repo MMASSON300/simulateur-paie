@@ -44,3 +44,8 @@ stitch_*.zip
 simulateur-paie-serveur.zip
 deploy/*.exe
 deploy/backend/
+
+# ---- Note de passation : gardée LOCALEMENT (contient des infos internes :
+#      nom du serveur, port, mot de passe admin par défaut, nom de l'agent).
+#      Le dépôt GitHub étant public, ce fichier ne doit pas être versionné.
+HANDOFF.md
