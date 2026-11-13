@@ -9,6 +9,9 @@ Monorepo : `backend/` (FastAPI + moteur de calcul), `frontend/` (React/Vite), `d
   Toute modification de calcul doit être couverte par `backend/tests/test_engine.py`.
 - **Jamais de table de correspondance d'exceptions** : corriger la **donnée**
   (`backend/app/seed_data/*.json`), pas le code.
+- **Libellés de référence sans espace de bord** (`strip`) ; le moteur normalise aussi à la
+  recherche (défensif). Dans un `<select>`, toujours `<option value={…}>` (sinon le navigateur
+  rogne les espaces et la valeur envoyée ne correspond plus).
 - **Ne rien committer sans demande explicite.** **Toujours demander validation avant `git push`.**
 - Ne jamais versionner : `.env`, `*.db`, `*.xlsm`, `deploy/backend/`, `deploy/*.exe`,
   `simulateur-paie-serveur.zip`, `HANDOFF.md`.
