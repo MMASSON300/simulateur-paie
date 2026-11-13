@@ -22,9 +22,12 @@ def build_reference_from_json() -> ReferenceData:
     sft = _load("sft.json")
     const = _load("constants.json")
 
-    im_lookup = {f"{g['grade']}{int(g['echelon'])}": float(g["im"]) for g in grades}
-    categorie_lookup = {g["grade"]: g["categorie"] for g in grades}
-    ifse_lookup = {f"{i['regime']}{i['grade']}".lower(): float(i["montant"]) for i in ifse}
+    im_lookup = {f"{(g['grade'] or '').strip()}{int(g['echelon'])}": float(g["im"]) for g in grades}
+    categorie_lookup = {(g["grade"] or "").strip(): g["categorie"] for g in grades}
+    ifse_lookup = {
+        f"{(i['regime'] or '').strip()}{(i['grade'] or '').strip()}".lower(): float(i["montant"])
+        for i in ifse
+    }
 
     temps_partiel = {float(t["quotite"]): float(t["facteur"]) for t in const["temps_partiel"]}
     transfert = {t["categorie"]: float(t["montant_annuel"]) for t in const["transfert_prime_point"]}
@@ -74,7 +77,10 @@ def build_reference_from_db(db) -> ReferenceData:
         temps_partiel={t.quotite: t.facteur for t in temps},
         transfert_prime_point={t.categorie: t.montant_annuel for t in transferts},
         sft={s.enfants: (s.element_fixe, s.element_proportionnel) for s in sft},
-        im_lookup={f"{g.grade}{g.echelon}": g.im for g in grades},
-        categorie_lookup={g.grade: g.categorie for g in grades},
-        ifse_lookup={f"{i.regime}{i.grade}".lower(): i.montant for i in ifse},
+        im_lookup={f"{(g.grade or '').strip()}{g.echelon}": g.im for g in grades},
+        categorie_lookup={(g.grade or "").strip(): g.categorie for g in grades},
+        ifse_lookup={
+            f"{(i.regime or '').strip()}{(i.grade or '').strip()}".lower(): i.montant
+            for i in ifse
+        },
     )

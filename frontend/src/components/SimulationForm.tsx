@@ -348,7 +348,9 @@ export default function SimulationForm({ options }: Props) {
                   <select value={form.grade} onChange={(e) => set('grade', e.target.value)}>
                     <option value="">— Sélectionner —</option>
                     {grades.map((g) => (
-                      <option key={g}>{g}</option>
+                      <option key={g} value={g}>
+                        {g}
+                      </option>
                     ))}
                   </select>
                 </div>

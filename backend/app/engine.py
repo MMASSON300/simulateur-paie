@@ -74,16 +74,17 @@ class ReferenceData:
 
 
 def _lookup_im(ref: ReferenceData, grade: str, echelon: int) -> float:
-    return ref.im_lookup.get(f"{grade}{int(echelon)}", 0.0)
+    return ref.im_lookup.get(f"{(grade or '').strip()}{int(echelon)}", 0.0)
 
 
 def _lookup_categorie(ref: ReferenceData, grade: str) -> str:
-    return ref.categorie_lookup.get(grade, "")
+    return ref.categorie_lookup.get((grade or "").strip(), "")
 
 
 def _lookup_ifse(ref: ReferenceData, regime: str, grade: str) -> float:
-    # Recherche insensible a la casse (comme VLOOKUP d'Excel).
-    return ref.ifse_lookup.get(f"{regime}{grade}".lower(), 0.0)
+    # Recherche insensible a la casse (comme VLOOKUP d'Excel) et aux espaces de bord.
+    key = f"{(regime or '').strip()}{(grade or '').strip()}".lower()
+    return ref.ifse_lookup.get(key, 0.0)
 
 
 def _quotite(ref: ReferenceData, duree_hebdo: float, temps_partiel: Optional[float]) -> float:

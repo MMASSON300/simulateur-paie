@@ -39,6 +39,8 @@ def extract_grades(wb) -> list[dict]:
         filiere = bg.cell(r, 1).value
         cadre = bg.cell(r, 2).value
         grade = bg.cell(r, 4).value
+        if isinstance(grade, str):
+            grade = grade.strip()
         echelon = _num(bg.cell(r, 5).value)
         im = _num(bg.cell(r, 7).value)
         categorie = bg.cell(r, 8).value
@@ -65,6 +67,8 @@ def extract_ifse(wb) -> list[dict]:
         regime = bi.cell(r, 3).value
         grade_code = bi.cell(r, 4).value
         grade = bi.cell(r, 5).value
+        if isinstance(grade, str):
+            grade = grade.strip()
         montant = _num(bi.cell(r, 6).value)
         if grade is None or montant is None:
             continue
